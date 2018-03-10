@@ -1,0 +1,34 @@
+/*
+ * Gaurav Vaidya's personal website CSS stylesheet
+ *
+ * Copyright (C) Gaurav Vaidya, 2018
+ */
+
+/* Panels */
+div.panel {
+    margin-top: 1em;
+}
+
+div.panel .panel-body {
+    min-height: 12em;
+    max-height: 12em;
+    overflow-y: auto;
+}
+
+/* Panel thumbnails */
+img.thumbnail {
+    width: 20%;
+    padding: 0px;
+    border: 1px solid black;
+    max-height: 10em;
+}
+
+img.thumbnail-left {
+    float: left;
+    margin-right: 1em;
+}
+
+img.thumbnail-right {
+    float: right;
+    margin-left: 1em;
+}
