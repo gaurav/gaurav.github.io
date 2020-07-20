@@ -1,2 +1,1 @@
-# www.ggvaidya.com
-My homepage, for better or worse.
+# Gaurav Vaidya's homepage
