@@ -1,0 +1,16 @@
+{
+    "@type": "schema:WebSite",
+    "@id": "https://www.ggvaidya.com/",
+    "sameAs": [
+        {
+            "@type": "schema:WebSite",
+            "@id": "https://www.facebook.com/gaurav.vaidya",
+            "label": "Gaurav Vaidya on Facebook",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Facebook",
+                "logo": "@src:images/logos"
+            }
+        }
+    ]
+}
