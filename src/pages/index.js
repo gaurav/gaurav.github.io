@@ -11,6 +11,10 @@ export const query = graphql`
       sameAs {
         _id
         label
+        publisher {
+          logo
+          name
+        }
       }
     }
   }
@@ -25,9 +29,13 @@ export default function IndexPage({ data }) {
       you can find me on other websites:</p>
 
       <ul>
-        { data.dataJson.sameAs.map(({ _id, label }) => (
-          <li><a href={ _id }>{ label }</a></li>
-        ))}
+        {
+          data.dataJson.sameAs.map(({ _id, label, publisher }) => {
+            return (
+              <li><a href={ _id }>{ label }</a> on { publisher.name }</li>
+            );
+          })
+        }
       </ul>
     </Layout>
   )

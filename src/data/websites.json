@@ -4,8 +4,18 @@
     "sameAs": [
         {
             "@type": "schema:WebSite",
+            "@id": "https://en.wikipedia.org/wiki/User:Gaurav",
+            "label": "User:Gaurav",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Wikipedia",
+                "logo": "@src:images/logos"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
             "@id": "https://www.facebook.com/gaurav.vaidya",
-            "label": "Gaurav Vaidya on Facebook",
+            "label": "Gaurav Vaidya",
             "publisher": {
                 "@type": "schema:Organization",
                 "name": "Facebook",
