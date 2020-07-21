@@ -620,3 +620,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Custom site-wide CSS */
+img.round {
+  border-radius: 50%;
+}
