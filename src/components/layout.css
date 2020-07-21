@@ -42,6 +42,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #5f160c;
 }
 a:active,
 a:hover {
@@ -619,9 +620,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
-
-/* Custom site-wide CSS */
-img.round {
-  border-radius: 50%;
 }
