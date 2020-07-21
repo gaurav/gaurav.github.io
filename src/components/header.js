@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "avatar.png" }) {
+      file(relativePath: { eq: "avatar-round.png" }) {
         childImageSharp {
           fixed(width: 64, height: 64) {
             ...GatsbyImageSharpFixed
@@ -31,18 +31,19 @@ const Header = ({ siteTitle }) => {
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <Img
-          loading="eager"
-          style={{
-            float: "left",
-            marginTop: "-0.5em",
-            borderRadius: "50%",
-            marginRight: "0.5em",
-            textAlign: "center",
-          }}
-          fixed={data.file.childImageSharp.fixed}
-          alt="A photo of a cat I use as my avatar image"
-        />
+        <a href="/avatar.jpeg">
+          <Img
+            loading="eager"
+            style={{
+              float: "left",
+              marginTop: "-0.5em",
+              marginRight: "0.5em",
+              textAlign: "center",
+            }}
+            fixed={data.file.childImageSharp.fixed}
+            alt="A photo of a cat I use as my avatar image"
+          />
+        </a>
         <h1 style={{ margin: 0 }}>
           <Link
             to="/"
