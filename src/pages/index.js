@@ -9,7 +9,7 @@ import indexStyles from "./index.module.css"
 
 export const query = graphql`
   query {
-    dataJson(_id: {eq: "https://www.ggvaidya.com/"}) {
+    dataJson(_id: { eq: "https://www.ggvaidya.com/" }) {
       sameAs {
         _id
         label
@@ -27,18 +27,23 @@ export default function IndexPage({ data }) {
     <Layout>
       <SEO title="Home" />
 
-      <p>Welcome to my website! For now, there's nothing here. Instead,
-      you can find me on other websites:</p>
+      <p>
+        Welcome to my website! For now, there's nothing here. Instead, you can
+        find me on other websites:
+      </p>
 
       <ul class={indexStyles.sameAsList}>
-        {
-          data.dataJson.sameAs.map(({ _id, label, publisher }) => {
-            return (
-              <li><a href={ _id }>{ label }</a> on { publisher.name }</li>
-            );
-          })
-        }
-        <li><em>Or</em> you can e-mail me at <tt>gaurav</tt>(at)<tt>ggvaidya</tt>.<tt>com</tt>.</li>
+        {data.dataJson.sameAs.map(({ _id, label, publisher }) => {
+          return (
+            <li>
+              <a href={_id}>{label}</a> on {publisher.name}
+            </li>
+          )
+        })}
+        <li>
+          <em>Or</em> you can e-mail me at <tt>gaurav</tt>(at)<tt>ggvaidya</tt>.
+          <tt>com</tt>.
+        </li>
       </ul>
     </Layout>
   )
