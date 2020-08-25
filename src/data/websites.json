@@ -1,126 +1,136 @@
 {
-  "@type": "schema:WebSite",
-  "@id": "https://www.ggvaidya.com/",
-  "sameAs": [
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://www.twitter.com/mrvaidya",
-      "label": "@mrvaidya",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Twitter",
-        "logo": "@src:images/logos/twitter.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "https://en.wikipedia.org/wiki/User:Gaurav",
-      "label": "User:Gaurav",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Wikipedia",
-        "logo": "@src:images/logos/wikipedia.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "https://commons.wikimedia.org/wiki/User:Gaurav",
-      "label": "User:Gaurav",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Wikimedia Commons",
-        "logo": "@src:images/logos/wikimedia-commons.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://github.com/gaurav",
-      "label": "gaurav",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Github",
-        "logo": "@src:images/logos/github.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://orcid.org/0000-0003-0587-0454",
-      "label": "0000-0003-0587-0454",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "ORCID",
-        "logo": "@src:images/logos/orcid.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://scholar.google.com/citations?user=EGDSsloAAAAJ&hl=en",
-      "label": "Gaurav Vaidya",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Google Scholar",
-        "logo": "@src:images/logos/google-scholar.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "https://publons.com/researcher/E-9766-2010/",
-      "label": "E-9766-2010",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Publons",
-        "logo": "@src:images/logos/publons.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://tumblr.ggvaidya.com/",
-      "label": "Gaurav",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Tumblr",
-        "logo": "@src:images/logos/tumblr.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "https://www.facebook.com/gaurav.vaidya",
-      "label": "gaurav.vaidya",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Facebook",
-        "logo": "@src:images/logos/facebook.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://steamcommunity.com/id/mrvaidya",
-      "label": "mrvaidya",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Steam",
-        "logo": "@src:images/logos/steam.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://foursquare.com/mrvaidya",
-      "label": "mrvaidya",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "Foursquare",
-        "logo": "@src:images/logos/foursquare.png"
-      }
-    },
-    {
-      "@type": "schema:WebSite",
-      "@id": "http://www.ggvaidya.com/",
-      "label": "www.ggvaidya.com",
-      "publisher": {
-        "@type": "schema:Organization",
-        "name": "DNS",
-        "logo": "@src:images/logos/dns.png"
-      }
-    }
-  ]
+    "@type": "schema:WebSite",
+    "@id": "https://www.ggvaidya.com/",
+    "sameAs": [
+        {
+          "@type": "schema:WebSite",
+          "@id": "https://www.wikidata.org/wiki/Q54698984",
+          "label": "Q54698984",
+          "publisher": {
+            "@type": "schema:Organization",
+            "name": "Wikidata",
+            "logo": "@src:images/logos/wikidata.png"
+          }
+        },
+        {
+          "@type": "schema:WebSite",
+          "@id": "http://www.twitter.com/mrvaidya",
+          "label": "@mrvaidya",
+          "publisher": {
+              "@type": "schema:Organization",
+              "name": "Twitter",
+              "logo": "@src:images/logos/twitter.png"
+          }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "https://en.wikipedia.org/wiki/User:Gaurav",
+            "label": "User:Gaurav",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Wikipedia",
+                "logo": "@src:images/logos/wikipedia.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "https://commons.wikimedia.org/wiki/User:Gaurav",
+            "label": "User:Gaurav",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Wikimedia Commons",
+                "logo": "@src:images/logos/wikimedia-commons.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://github.com/gaurav",
+            "label": "gaurav",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Github",
+                "logo": "@src:images/logos/github.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://orcid.org/0000-0003-0587-0454",
+            "label": "0000-0003-0587-0454",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "ORCID",
+                "logo": "@src:images/logos/orcid.png"
+            }
+        },
+        {
+          "@type": "schema:WebSite",
+          "@id": "http://scholar.google.com/citations?user=EGDSsloAAAAJ&hl=en",
+          "label": "Gaurav Vaidya",
+          "publisher": {
+              "@type": "schema:Organization",
+              "name": "Google Scholar",
+              "logo": "@src:images/logos/google-scholar.png"
+          }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "https://publons.com/researcher/E-9766-2010/",
+            "label": "E-9766-2010",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Publons",
+                "logo": "@src:images/logos/publons.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://tumblr.ggvaidya.com/",
+            "label": "Gaurav",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Tumblr",
+                "logo": "@src:images/logos/tumblr.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "https://www.facebook.com/gaurav.vaidya",
+            "label": "gaurav.vaidya",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Facebook",
+                "logo": "@src:images/logos/facebook.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://steamcommunity.com/id/mrvaidya",
+            "label": "mrvaidya",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Steam",
+                "logo": "@src:images/logos/steam.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://foursquare.com/mrvaidya",
+            "label": "mrvaidya",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Foursquare",
+                "logo": "@src:images/logos/foursquare.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://www.ggvaidya.com/",
+            "label": "ggvaidya.com",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "DNS",
+                "logo": "@src:images/logos/dns.png"
+            }
+        }
+    ]
 }
