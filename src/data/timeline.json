@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "subjectOf": "schema:subjectOf",
+    "hasRole": "example:hasRole",
+    "name": "schema:name",
+    "location": "schema:location"
+  },
+  "@type": "schema:Person",
+  "@id": "https://www.ggvaidya.com/",
+  "hasRole": [
+    {
+      "@type": "schema:RoleName",
+      "startDate": "2018-01-02",
+      "endDate": "2019-10-11",
+      "roleName": "Post Doctoral Associate",
+      "organization": {
+        "@id": "https://www.floridamuseum.ufl.edu/",
+        "@type": "schema:Corporation",
+        "name": "Florida Museum of Natural History, University of Florida",
+        "location": "Gainesville, Florida, USA"
+      }
+    },
+    {
+      "@type": "schema:RoleName",
+      "startDate": "2019-10-21",
+      "endDate": "2020-12-20",
+      "roleName": "Semantics Web Technologist",
+      "organization": {
+        "@id": "https://renci.org/",
+        "@type": "schema:Corporation",
+        "name": "Renaissance Computing Institute, University of North Carolina",
+        "location": "Chapel Hill, North Carolina, USA"
+      }
+    },
+    {
+      "@type": "schema:RoleName",
+      "startDate": "2007-11-01",
+      "endDate": "2011-02-28",
+      "roleName": "Software architect",
+      "organization": {
+        "@id": "http://www.paperterminal.org/",
+        "@type": "schema:Corporation",
+        "name": "Paper Terminal Pte Ltd",
+        "location": "Singapore"
+      }
+    }
+  ]
+}
