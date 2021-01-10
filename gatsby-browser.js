@@ -5,3 +5,6 @@
  */
 
 import "typeface-nunito-sans";
+
+// Import global CSS settings.
+import "./src/styles/global.css";

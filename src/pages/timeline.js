@@ -7,7 +7,44 @@ import SEO from "../components/seo"
 
 import indexStyles from "./index.module.css"
 
-import timelineData from "../data/timeline.json"
+import timelineData from "../jsonld/timeline.json"
+
+function getDurationAsString(luxonDuration) {
+  const duration = luxonDuration.shiftTo(
+    'years',
+    'months',
+    'days'
+  );
+
+  function getUnitAsString(count, unit) {
+    if (count == 0) return 'zero ' + unit;
+    if (count > 1) return Math.floor(count) + ' ' + unit;
+    switch(unit) {
+      case "years": return '1 year';
+      case "months": return '1 month';
+      case "days": return '1 day';
+    }
+  }
+
+  if(duration.years <= 0 && duration.months <= 0) {
+    return getUnitAsString(duration.days, 'days');
+  } else if(duration.years <= 0) {
+    return `${getUnitAsString(duration.months, 'months')} and ${getUnitAsString(duration.days, 'days')}`;
+  } else {
+    return `${getUnitAsString(duration.years, 'years')}, ${getUnitAsString(duration.months, 'months')} and ${getUnitAsString(duration.days, 'days')}`;
+  }
+}
+
+function getFullTimeSpan(luxonTime) {
+  const duration = luxonTime.diffNow([
+    'years',
+    'months',
+    'days'
+  ]).negate();
+  console.log("Duration to now from ", luxonTime, " is ", duration, " or ", getDurationAsString(duration));
+
+  return <span title={getDurationAsString(duration) + ' ago'}>{luxonTime.toLocaleString(DateTime.DATE_FULL)}</span>
+}
 
 export default function TimelinePage() {
   const roles = timelineData.hasRole
@@ -37,13 +74,13 @@ export default function TimelinePage() {
           roles.map((role, index) => {
             return (<>
               <dt>
-                <span title={role.startTime}>{ role.startTime.toLocaleString(DateTime.DATE_FULL) }</span>
+                { getFullTimeSpan(role.startTime) }
                 {" "}
                 to
                 {" "}
-                { role.endTime.toLocaleString(DateTime.DATE_FULL) }.
+                { getFullTimeSpan(role.endTime) }.
                 {" "}
-                ({ role.duration.years } years, { role.duration.months } months, {role.duration.days} days)
+                ({ getDurationAsString(role.duration) })
                 {" "}
                 { role.roleName }
               </dt>

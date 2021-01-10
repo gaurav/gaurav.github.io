@@ -13,10 +13,15 @@ export default function IndexPage() {
     <Layout>
       <SEO title="Home" />
 
-      <p>Welcome to my website! For now, there's nothing here. Instead,
-      you can find me on other websites:</p>
+      <p>Welcome to my website! You might want to see:</p>
 
-      <ul class={indexStyles.sameAsList}>
+      <ul>
+        <li>A <a href="./timeline">timeline</a> of my life (think of it as an extended CV).</li>
+      </ul>
+
+      <p>You can find me on other websites:</p>
+
+      <ul>
         {
           websites.sameAs.map((website, index) => {
             return (
