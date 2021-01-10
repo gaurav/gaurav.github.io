@@ -1,0 +1,95 @@
+@prefix schema: <http://schema.org/> .
+
+<https://www.ggvaidya.com/> a schema:Person ;
+    schema:sameAs <http://foursquare.com/mrvaidya>,
+        <http://github.com/gaurav>,
+        <http://orcid.org/0000-0003-0587-0454>,
+        <http://scholar.google.com/citations?user=EGDSsloAAAAJ&hl=en>,
+        <http://steamcommunity.com/id/mrvaidya>,
+        <http://tumblr.ggvaidya.com/>,
+        <http://www.ggvaidya.com/>,
+        <http://www.twitter.com/mrvaidya>,
+        <https://commons.wikimedia.org/wiki/User:Gaurav>,
+        <https://en.wikipedia.org/wiki/User:Gaurav>,
+        <https://publons.com/researcher/E-9766-2010/>,
+        <https://www.facebook.com/gaurav.vaidya>,
+        <https://www.wikidata.org/wiki/Q54698984> .
+
+<http://foursquare.com/mrvaidya> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/foursquare.png" ;
+            schema:name "Foursquare" ],
+        "mrvaidya" .
+
+<http://github.com/gaurav> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/github.png" ;
+            schema:name "Github" ],
+        "gaurav" .
+
+<http://orcid.org/0000-0003-0587-0454> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/orcid.png" ;
+            schema:name "ORCID" ],
+        "0000-0003-0587-0454" .
+
+<http://scholar.google.com/citations?user=EGDSsloAAAAJ&hl=en> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/google-scholar.png" ;
+            schema:name "Google Scholar" ],
+        "Gaurav Vaidya" .
+
+<http://steamcommunity.com/id/mrvaidya> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/steam.png" ;
+            schema:name "Steam" ],
+        "mrvaidya" .
+
+<http://tumblr.ggvaidya.com/> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/tumblr.png" ;
+            schema:name "Tumblr" ],
+        "Gaurav" .
+
+<http://www.ggvaidya.com/> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/dns.png" ;
+            schema:name "DNS" ],
+        "ggvaidya.com" .
+
+<http://www.twitter.com/mrvaidya> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/twitter.png" ;
+            schema:name "Twitter" ],
+        "@mrvaidya" .
+
+<https://commons.wikimedia.org/wiki/User:Gaurav> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/wikimedia-commons.png" ;
+            schema:name "Wikimedia Commons" ],
+        "User:Gaurav" .
+
+<https://en.wikipedia.org/wiki/User:Gaurav> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/wikipedia.png" ;
+            schema:name "Wikipedia" ],
+        "User:Gaurav" .
+
+<https://publons.com/researcher/E-9766-2010/> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/publons.png" ;
+            schema:name "Publons" ],
+        "E-9766-2010" .
+
+<https://www.facebook.com/gaurav.vaidya> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/facebook.png" ;
+            schema:name "Facebook" ],
+        "gaurav.vaidya" .
+
+<https://www.wikidata.org/wiki/Q54698984> a schema:WebSite ;
+    schema:label [ a schema:Organization ;
+            schema:logo "@src:images/logos/wikidata.png" ;
+            schema:name "Wikidata" ],
+        "Q54698984" .
+

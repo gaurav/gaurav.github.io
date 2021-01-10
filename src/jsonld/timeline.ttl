@@ -1,0 +1,7 @@
+@prefix schema: <http://schema.org/> .
+
+<https://www.ggvaidya.com/> a schema:Person ;
+    <example:hasRole> [ a schema:RoleName ],
+        [ a schema:RoleName ],
+        [ a schema:RoleName ] .
+
