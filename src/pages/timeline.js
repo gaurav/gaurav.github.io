@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 import { DateTime } from "luxon"
 
 import Layout from "../components/layout"
