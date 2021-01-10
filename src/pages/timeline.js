@@ -1,7 +1,7 @@
 import React from "react"
 import { DateTime } from "luxon"
 
-import dates from "../lib/dates.js"
+import * as dates from "../lib/dates.js"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -38,11 +38,7 @@ export default function TimelinePage() {
         roles.map((role, index) => {
           return (<div>
             <div>
-              { dates.getFullTimeSpan(role.startTime) }
-              {" "}
-              to
-              {" "}
-              { dates.getFullTimeSpan(role.endTime) }
+              { dates.getShortDiffSpan(role.startTime, role.endTime) }
               {" "}&bull;{" "}
               { role.roleName }
               {" "}at{" "}
