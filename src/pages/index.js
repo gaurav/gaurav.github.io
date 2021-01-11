@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -7,34 +6,26 @@ import SEO from "../components/seo"
 
 import indexStyles from "./index.module.css"
 
-export default function IndexPage() {
-  const data = useStaticQuery(graphql`
-    query {
-      dataJson(_id: {eq: "https://www.ggvaidya.com/"}) {
-        sameAs {
-          _id
-          label
-          publisher {
-            logo
-            name
-          }
-        }
-      }
-    }
-  `)
+import websites from "../jsonld/websites.json"
 
+export default function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
 
-      <p>Welcome to my website! For now, there's nothing here. Instead,
-      you can find me on other websites:</p>
+      <p>Welcome to my website! You might want to see:</p>
 
-      <ul class={indexStyles.sameAsList}>
+      <ul>
+        <li>A <a href="./timeline">timeline</a> of my life (think of it as an extended CV).</li>
+      </ul>
+
+      <p>You can find me on other websites:</p>
+
+      <ul>
         {
-          data.dataJson.sameAs.map(({ _id, label, publisher }, index) => {
+          websites.sameAs.map((website, index) => {
             return (
-              <li><a href={ _id }>{ label }</a> on { publisher.name }</li>
+              <li><a href={ website['@id'] }>{ website.label }</a> on { website.publisher.name }</li>
             );
           })
         }

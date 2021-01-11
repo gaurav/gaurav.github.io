@@ -1,0 +1,17 @@
+/*
+ * A global CSS file.
+ */
+
+ul {
+  line-height: 1;
+}
+
+/* Highlight all spans with titles -- encourage people to hover! */
+span[title] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+span[title].no-title-dash {
+  text-decoration-line: none;
+  text-decoration-style: none;
+}

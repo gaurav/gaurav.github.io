@@ -1,5 +1,13 @@
 {
-    "@type": "schema:WebSite",
+    "@context": {
+        "schema": "http://schema.org/",
+        "sameAs": "schema:sameAs",
+        "label": "schema:label",
+        "publisher": "schema:label",
+        "name": "schema:name",
+        "logo": "schema:logo"
+    },
+    "@type": "schema:Person",
     "@id": "https://www.ggvaidya.com/",
     "sameAs": [
         {
