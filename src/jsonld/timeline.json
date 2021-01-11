@@ -117,21 +117,32 @@
           }
         },
         "location": "Boulder, Colorado, USA"
-      }
+      },
+      "relatedLink": [{
+        "@id": "https://www.google-melange.com/archive/gsoc/2014/orgs/dbpediaspotlight/projects/gaurav.html",
+        "label": "Project description on Google Summer of Code's website"
+      }, {
+        "@id": "https://commons.wikimedia.org/wiki/User:Gaurav/DBpedia",
+        "label": "Project report on the Wikimedia Commons"
+      }]
     },
     {
       "@type": "schema:RoleName",
       "startDate": "2013-01",
       "endDate": "2013-05",
       "roleName": "Graduate research assistant",
-      "description": "This fellowship allowed me to work exclusively on my PhD for one semester with a mentor at the National Evolutionary Synthesis Center (NESCent) in Durham, North Carolina\footnote{Proposal available at url{https://www.nescent.org/science/awards_summary.php-id=374.html}}. My mentor at NESCent, Hilmar Lapp, would later hire me to work on the Phyloreferencing project.",
+      "description": "This fellowship allowed me to work exclusively on my PhD for one semester with a mentor at the National Evolutionary Synthesis Center (NESCent) in Durham, North Carolina\footnote{Proposal available at url{}}. My mentor at NESCent, Hilmar Lapp, would later hire me to work on the Phyloreferencing project.",
       "organization": {
         "@id": "https://www.nescent.org/",
         "@type": "schema:Corporation",
         "addThe": true,
         "name": "National Evolutionary Synthesis Center (NESCent)",
         "location": "Durham, North Carolina, USA"
-      }
+      },
+      "relatedLink": [{
+        "@id": "https://www.nescent.org/science/awards_summary.php-id=374.html",
+        "label": "Description of my project on NESCent's website"
+      }]
     },
     {
       "@type": "schema:RoleName",
@@ -145,7 +156,11 @@
         "addThe": false,
         "name": "Paper Terminal Pte Ltd",
         "location": "Singapore"
-      }
+      },
+      "relatedLink": [{
+        "@id": "https://www.abbyy.com/customer-stories/abbyy-recognition-server-proves-to-be-credible-infrastructure-for-online-services-ocr-terminal/",
+        "label": "Description of OCR Terminal on ABBYY's website"
+      }]
     },
     {
       "@type": "schema:RoleName",
@@ -166,7 +181,11 @@
           "name": "National University of Singapore",
           "location": "Singapore"
         }
-      }
+      },
+      "relatedLink": [{
+        "@id": "https://web.archive.org/web/20080521174221/http://evolution.science.nus.edu.sg/people/gaurav/",
+        "label": "My description on our lab website"
+      }]
     }
   ]
 }

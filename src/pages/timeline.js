@@ -60,6 +60,11 @@ export default function TimelinePage() {
               }
             </div>
             { role.description && <p>{ role.description }</p> }
+            <p><ul>
+              { (role.relatedLink || []).map(link => {
+                return <li>Link: <a href={link['@id']}>{link.label}</a>{ link.description && <>{": "}{link.description}</>}</li>
+              })}
+            </ul></p>
           </div>);
         })
       }
