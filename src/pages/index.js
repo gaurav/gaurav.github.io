@@ -16,7 +16,8 @@ export default function IndexPage() {
       <p>Welcome to my website! You might want to see:</p>
 
       <ul>
-        <li>A <a href="./timeline">timeline</a> of my life (think of it as an extended CV).</li>
+        <li>A <a href="./timeline">timeline</a> of my life (it's like an extended CV).</li>
+        <li>A list of all the <a href="./projects">projects</a> I've worked on.</li>
       </ul>
 
       <p>You can find me on other websites:</p>

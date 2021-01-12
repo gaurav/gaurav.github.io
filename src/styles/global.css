@@ -6,6 +6,14 @@ ul {
   line-height: 1;
 }
 
+ul.uncompressed {
+  line-height: normal;
+}
+
+ul.compressed {
+  line-height: 1 !important;
+}
+
 /* Highlight all spans with titles -- encourage people to hover! */
 span[title] {
   text-decoration-line: underline;

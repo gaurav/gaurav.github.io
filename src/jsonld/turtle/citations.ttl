@@ -1,0 +1,23 @@
+@prefix example: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+
+<http://lohman.ccny.cuny.edu/> schema:name "David J. Lohman" .
+
+<https://doi.org/10.1080/10635150600969864> a <http://okfnlabs.org/bibjson/> ;
+    example:author ( <https://www.dbs.nus.edu.sg/staffs/rudolf-meier/> <https://www.linkedin.com/in/shiyang-kwong-b490a356/> <https://www.ggvaidya.com/> <https://www.wikidata.org/wiki/Q21393244> ) .
+
+<https://doi.org/10.1111/j.1096-0031.2010.00329.x> a <http://okfnlabs.org/bibjson/> ;
+    example:author ( <https://www.ggvaidya.com/> <http://lohman.ccny.cuny.edu/> <https://www.dbs.nus.edu.sg/staffs/rudolf-meier/> ) .
+
+<https://www.linkedin.com/in/shiyang-kwong-b490a356/> schema:name "Kwong Shiyang" .
+
+<https://www.wikidata.org/wiki/Q21393244> schema:name "Peter K. L. Ng" .
+
+<https://www.dbs.nus.edu.sg/staffs/rudolf-meier/> schema:name "Rudolf Meier" .
+
+<https://www.ggvaidya.com/> a schema:Person ;
+    example:authored <https://doi.org/10.1080/10635150600969864>,
+        <https://doi.org/10.1111/j.1096-0031.2010.00329.x> ;
+    schema:name "Gaurav Vaidya" .
+

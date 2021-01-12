@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "subjectOf": "schema:subjectOf",
+    "hasRole": "example:hasRole",
+    "name": "schema:name",
+    "location": "schema:location"
+  },
+  "@type": "schema:Person",
+  "@id": "https://www.ggvaidya.com/",
+  "projects": [
+    {
+      "@type": "schema:Project",
+      "startDate": "2003",
+      "endDate": "2006",
+      "name": "Species Identifier",
+      "description": "Species Identifier provides a set of tools for exploring intra- and interspecific genetic distances, matching sequences, and clustering sequences based on pairwise distances. It helps determine whether two sequences are likely conspecific based on pairwise distances, and can calculate pairwise distances for large datasets. It was designed to provide the analyses presented in Meier et al, 2006 (Best match, Best close match and All Species Barcodes).",
+      "products": [{
+        "@id": "http://taxondna.sf.net/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2006-08-20",
+        "endDate": "2015-06-22",
+        "name": "Species Identifier",
+        "codeRepository": "http://github.com/gaurav/taxondna",
+        "license": "https://www.wikidata.org/wiki/Q27016752",
+        "technologies": [
+          "java",
+          "ant"
+        ],
+        "uses": [
+          "Replicate the techniques used in Meier et al. 2006 on your own datasets."
+        ]
+      }, {
+        "@id": "https://doi.org/10.1080/10635150600969864"
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2009-04",
+      "endDate": "2010-11-13",
+      "name": "Sequence Matrix",
+      "description": "Sequence Matrix facilitates the assembly of phylogenetic data matrices with multiple genes. Files for individual genes are dragged and dropped into a window and the sequences are concatenated. A table provides an overview over how much sequence information is available for the different genes and species. The user can request Sequence Matrix generate a wide variety of character and taxon sets (e.g. a taxon set with all species that have more than a specified number of genes or basepairs). The concatenated sequences can be exported in NEXUS or TNT format. Individual sequences can be excluded from being exported.",
+      "products": [{
+        "@id": "http://gaurav.github.io/taxondna/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2009-04-10",
+        "endDate": "2015-06-22",
+        "name": "Sequence Matrix",
+        "codeRepository": "http://github.com/gaurav/taxondna",
+        "license": "https://www.wikidata.org/wiki/Q27016752",
+        "technologies": [
+          "java",
+          "ant",
+          "swing"
+        ],
+        "uses": [
+          "Concatenating sequences from multiple genes for multiple taxa.",
+          "Records sequence start and end points so that they can be un-concatenated later if needed.",
+          "Includes tools for identifying unusual sequences and suppress them on export."
+        ]
+      }, {
+        "@id": "https://doi.org/10.1111/j.1096-0031.2010.00329.x"
+      }]
+    }
+  ]
+}
