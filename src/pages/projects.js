@@ -27,11 +27,14 @@ export default function TimelinePage() {
       const dest = {...src};
       dest.startTime = DateTime.fromISO(dest.startDate);
       dest.endTime = DateTime.fromISO(dest.endDate);
-      dest.duration = dest.startTime.until(dest.endTime).toDuration([
-        'years',
-        'months',
-        'days'
-      ]);
+      dest.products = (dest.products || []).map(srcProduct => {
+        const dest = {...srcProduct};
+        dest.startTime = DateTime.fromISO(dest.startDate);
+        dest.endTime = DateTime.fromISO(dest.endDate);
+        return dest;
+      }).sort(
+        (a, b) => b.endTime.toMillis() - a.endTime.toMillis()
+      );
       return dest;
     })
     .sort(
@@ -46,7 +49,7 @@ export default function TimelinePage() {
       {
         projects.map((project, index) => {
           return (<div>
-            <div>
+            <div class={css.projectTitle}>
               { dates.getShortDiffSpan(project.startTime, project.endTime) }
               {" "}&bull;{" "}
               <strong>{ project.name }</strong>
@@ -56,8 +59,9 @@ export default function TimelinePage() {
             </div>
             { project.description && <p>{ project.description }</p> }
             <p><ul class="uncompressed">
-              { (project.products || []).map(product => <li>{creativeworks.renderCreativeWork(product)}</li>) }
+              { project.products.map(product => <li>{creativeworks.renderCreativeWork(product)}</li>) }
             </ul></p>
+            <hr class={css.projectEndHR} />
           </div>);
         })
       }

@@ -3,7 +3,10 @@
  */
 
 import React from "react"
+import { DateTime } from "luxon"
+
 import * as citations from "./citations.js"
+import * as dates from "./dates.js"
 
 export function renderLicense(license) {
   const url = ((typeof license === 'object') && license['@id']) || license;
@@ -30,18 +33,22 @@ export function renderCreativeWork(work) {
   const url = work['@id'] || work['url'];
   const name = work.name || "Unnamed creative work";
   const type = work['@type'];
+  const startTime = work.startDate ? DateTime.fromISO(work.startDate) : undefined;
+  const endTime = work.endDate ? DateTime.fromISO(work.endDate) : undefined;
 
   switch (type) {
     case 'schema:SoftwareSourceCode':
       return <>
         <strong>Software</strong>: <a href={url}>{name}</a>
+        { startTime && endTime && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
+        { work.description && <>{": "}{work.description}</> }
         <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}
               { work.technologies.map((tech, index) => <>
                 <a href={'https://stackoverflow.com/tags/' + tech}>{tech}</a>
                 { (index < work.technologies.length - 1) && ", " }
-              </>) }
+              </>) }.
             </li>
           }
           { work.uses &&

@@ -11,6 +11,94 @@
   "projects": [
     {
       "@type": "schema:Project",
+      "startDate": "2019-10-21",
+      "endDate": "2020-12-20",
+      "name": "CCDH",
+      "description": "I work on the CCDH Tools and Data Quality team at RENCI. We aim to develop software tools that will allow the validation of biomedical data against the CRDC-H data model to store cancer-related biomedical data, to publish and transform the data model into different formats as needed, and to fulfil any other software development tasks that are needed to complete this project.",
+      "products": [{
+        "@id": "https://github.com/cancerDHC/csv2caDSR",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2020-07-28",
+        "endDate": "2020-12-04",
+        "name": "csv2caDSR",
+        "description": "A tool for harmonizing biomedical data using the Cancer Data Standards Registry and Repository (caDSR) as a source of validation information.",
+        "codeRepository": "https://github.com/cancerDHC/csv2caDSR",
+        "technologies": [
+          "scala",
+          "caDSR",
+          "pfb",
+          "cedar workbench"
+        ],
+        "uses": [
+          "Harmonize input data against the caDSR.",
+          "Stores harmonization information (such as concepts to map particular values to) in a JSON format that can be converted into other mapping formats if needed.",
+          "Export harmonized data in a variety of formats, such as the Portable Format for Biomedical Data (PFB) and the CEDAR Instance format."
+        ]
+      }, {
+        "@id": "https://github.com/cancerDHC/umls-rrf-scala",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2020-03-30",
+        "endDate": "2020-11-04",
+        "name": "UMLS-RRF-Scala",
+        "description": "A set of tools for identifying mappings from terms in one vocabulary to others, intending to be used to provide mappings from closed-source vocabularies to open-access vocabularies.",
+        "codeRepository": "https://github.com/cancerDHC/umls-rrf-scala",
+        "technologies": [
+          "scala",
+          "umls",
+          "sssom"
+        ],
+        "uses": [
+          "Extract individual mappings from the Unified Medical Language System (UMLS) Metathesaurus as SSSOM files.",
+          "Use web services (such as BioPortal and the EMBL-EBI Ontology Lookup Service) to find additional mappings from one term to another."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2019-10-21",
+      "endDate": "2020-12-20",
+      "name": "Small projects at RENCI",
+      "description": "While working as a Semantic Web technologist at RENCI, I developed a number of ad-hoc software tools to meet various needs from other RENCI teams.",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
       "startDate": "2003",
       "endDate": "2006",
       "name": "Species Identifier",
