@@ -99,6 +99,270 @@
     },
     {
       "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "The Phyloreferencing Project",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "PhD dissertation",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "Dbpedia Commons",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "TaxRefine",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "Art of Life",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2018-01-02",
+      "endDate": "2020-12-20",
+      "name": "OCR Terminal",
+      "description": "",
+      "products": [{
+        "@id": "http://shacli.org/",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-30",
+        "endDate": "2020-05-26",
+        "name": "SHACLI",
+        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
+        "codeRepository": "https://github.com/gaurav/shacli",
+        "technologies": [
+          "scala",
+          "shacl",
+          "rdf"
+        ],
+        "uses": [
+          "Validate RDF data against SHACL shapes.",
+          "Improved error messages as compared to other SHACL validators.",
+          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+        ]
+      }, {
+        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2019-10-23",
+        "endDate": "2020-11-08",
+        "name": "Omnicorp and OmniCORD",
+        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
+        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "technologies": [
+          "scala",
+          "slurm",
+          "rdf"
+        ],
+        "uses": [
+          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
+          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+          "Validate produced RDF information against SHACL shapes using SHACLI."
+        ]
+      }]
+    },
+    {
+      "@type": "schema:Project",
       "startDate": "2003",
       "endDate": "2006",
       "name": "Species Identifier",
