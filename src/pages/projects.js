@@ -44,7 +44,7 @@ export default function TimelinePage() {
   return (
     <Layout>
       <SEO title="Projects" />
-      <h2>Projects</h2>
+      <h1>Projects</h1>
 
       {
         projects.map((project, index) => {

@@ -32,7 +32,7 @@ export default function TimelinePage() {
   return (
     <Layout>
       <SEO title="Timeline" />
-      <h2>Timeline</h2>
+      <h1>Timeline</h1>
 
       {
         roles.map((role, index) => {
