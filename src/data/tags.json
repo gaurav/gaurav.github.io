@@ -44,9 +44,6 @@
     "@id": "https://datascience.cancer.gov/resources/metadata",
     "name": "Cancer Data Standards Registry and Repository",
     "description": "A database of field definitions used in cancer data.",
-    "urls": [
-      "https://datascience.cancer.gov/resources/metadata"
-    ],
     "seeAlso": [
       "NCI Thesaurus",
       "UMLS"
