@@ -1,0 +1,152 @@
+{
+  "Scala": {
+    "id": "Scala",
+    "@id": "https://www.scala-lang.org/",
+    "name": "Scala",
+    "description": "A functional and object-oriented programming language built upon the Java Virtual Machine (JVM).",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Scala_(programming_language)"
+    ]
+  },
+  "Java": {
+    "id": "Java",
+    "@id": "https://java.com/",
+    "name": "Java",
+    "description": "An object-oriented programming language.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ]
+  },
+  "Apache Ant": {
+    "id": "Apache Ant",
+    "@id": "https://ant.apache.org/",
+    "name": "Apache Ant",
+    "description": "A build tool for Java.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Apache_Ant"
+    ],
+    "seeAlso": [
+      "Java"
+    ]
+  },
+  "Java Swing": {
+    "id": "Java Swing",
+    "@id": "https://en.wikipedia.org/wiki/Swing_(Java)",
+    "name": "Java Swing",
+    "description": "A graphical user interface (GUI) library for Java.",
+    "urls": [],
+    "seeAlso": [
+      "Java"
+    ]
+  },
+  "caDSR": {
+    "id": "caDSR",
+    "@id": "https://datascience.cancer.gov/resources/metadata",
+    "name": "Cancer Data Standards Registry and Repository",
+    "description": "A database of field definitions used in cancer data.",
+    "urls": [
+      "https://datascience.cancer.gov/resources/metadata"
+    ],
+    "seeAlso": [
+      "NCI Thesaurus",
+      "UMLS"
+    ]
+  },
+  "UMLS": {
+    "id": "UMLS",
+    "@id": "https://www.nlm.nih.gov/research/umls/index.html",
+    "name": "Unified Medical Language System",
+    "description": "A database of mappings between multiple medical vocabularies.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Unified_Medical_Language_System"
+    ],
+    "seeAlso": [
+      "NCI Thesaurus",
+      "caDSR"
+    ]
+  },
+  "RDF": {
+    "id": "RDF",
+    "@id": "https://www.w3.org/RDF/",
+    "name": "Resource Description Framework",
+    "description": "A simple and flexible data model that forms the basis of technologies such as OWL.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Resource_Description_Framework"
+    ],
+    "seeAlso": [
+      "OWL"
+    ]
+  },
+  "Web Ontology Language": {
+    "id": "Web Ontology Language",
+    "@id": "https://www.w3.org/OWL/",
+    "name": "Web Ontology Language",
+    "description": "An RDF-based language for authoring ontologies.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Web_Ontology_Language"
+    ],
+    "seeAlso": [
+      "RDF",
+      "Ontologies"
+    ]
+  },
+  "Ontologies": {
+    "id": "Ontologies",
+    "@id": "https://en.wikipedia.org/wiki/Ontology_(information_science)",
+    "name": "Ontologies",
+    "description": "An ontology is a formal representation of knowledge.",
+    "seeAlso": [
+      "Web Ontology Language"
+    ]
+  },
+  "SHACL": {
+    "id": "SHACL",
+    "@id": "https://www.w3.org/TR/shacl/",
+    "name": "Shapes Constraint Language",
+    "description": "A W3 specification for describing and validating graph-based data.",
+    "seeAlso": [
+      "RDF",
+      "ShEx"
+    ]
+  },
+  "ShEx": {
+    "id": "ShEx",
+    "@id": "https://shex.io/",
+    "name": "Shape Expressions",
+    "description": "A W3 specification for describing and validating graph-based data.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/ShEx"
+    ],
+    "seeAlso": [
+      "RDF",
+      "SHACL"
+    ]
+  },
+  "PFB": {
+    "id": "PFB",
+    "@id": "https://github.com/uc-cdis/pypfb",
+    "name": "Portable Format for Biomedical data",
+    "description": "An Apache Avro-based format for publishing biomedical data."
+  },
+  "CEDAR Workbench": {
+    "id": "CEDAR Workbench",
+    "@id": "https://metadatacenter.org/",
+    "name": "CEDAR Workbench",
+    "description": "A software tool and associated formats for collecting and validating medical metadata."
+  },
+  "SSSOM": {
+    "id": "SSSOM",
+    "@id": "https://github.com/OBOFoundry/SSSOM",
+    "name": "A Simple Standard for Sharing Ontology Mappings",
+    "description": "A simple TSV-based format for sharing mappings between concepts in different ontologies."
+  },
+  "Slurm Workload Manager": {
+    "id": "Slurm Workload Manager",
+    "@id": "https://slurm.schedmd.com/",
+    "name": "Slurm Workload Manager",
+    "description": "A tool for managing jobs on a computer cluster.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Slurm_Workload_Manager"
+    ]
+  }
+}

@@ -24,10 +24,10 @@
         "description": "A tool for harmonizing biomedical data using the Cancer Data Standards Registry and Repository (caDSR) as a source of validation information.",
         "codeRepository": "https://github.com/cancerDHC/csv2caDSR",
         "technologies": [
-          "scala",
+          "Scala",
           "caDSR",
-          "pfb",
-          "cedar workbench"
+          "PFB",
+          "CEDAR Workbench"
         ],
         "uses": [
           "Harmonize input data against the caDSR.",
@@ -43,9 +43,9 @@
         "description": "A set of tools for identifying mappings from terms in one vocabulary to others, intending to be used to provide mappings from closed-source vocabularies to open-access vocabularies.",
         "codeRepository": "https://github.com/cancerDHC/umls-rrf-scala",
         "technologies": [
-          "scala",
-          "umls",
-          "sssom"
+          "Scala",
+          "UMLS",
+          "SSSOM"
         ],
         "uses": [
           "Extract individual mappings from the Unified Medical Language System (UMLS) Metathesaurus as SSSOM files.",
@@ -68,9 +68,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -86,9 +86,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -112,9 +112,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -130,9 +130,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -156,9 +156,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -174,9 +174,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -200,9 +200,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -218,9 +218,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -244,9 +244,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -262,9 +262,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -288,9 +288,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -306,9 +306,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -332,9 +332,9 @@
         "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
-          "scala",
-          "shacl",
-          "rdf"
+          "Scala",
+          "SHACL",
+          "RDF"
         ],
         "uses": [
           "Validate RDF data against SHACL shapes.",
@@ -350,9 +350,9 @@
         "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
-          "scala",
-          "slurm",
-          "rdf"
+          "Scala",
+          "SSSOM",
+          "RDF"
         ],
         "uses": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
@@ -376,8 +376,8 @@
         "codeRepository": "http://github.com/gaurav/taxondna",
         "license": "https://www.wikidata.org/wiki/Q27016752",
         "technologies": [
-          "java",
-          "ant"
+          "Java",
+          "Apache Ant"
         ],
         "uses": [
           "Replicate the techniques used in Meier et al. 2006 on your own datasets."
@@ -401,9 +401,9 @@
         "codeRepository": "http://github.com/gaurav/taxondna",
         "license": "https://www.wikidata.org/wiki/Q27016752",
         "technologies": [
-          "java",
-          "ant",
-          "swing"
+          "Java",
+          "Apache Ant",
+          "Java Swing"
         ],
         "uses": [
           "Concatenating sequences from multiple genes for multiple taxa.",

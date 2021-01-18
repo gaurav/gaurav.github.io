@@ -7,6 +7,7 @@ import { DateTime } from "luxon"
 
 import * as citations from "./citations.js"
 import * as dates from "./dates.js"
+import { renderTag } from "./tags.js"
 
 export function renderLicense(license) {
   const url = ((typeof license === 'object') && license['@id']) || license;
@@ -45,8 +46,7 @@ export function renderCreativeWork(work) {
         <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}
-              { work.technologies.map((tech, index) => <>
-                <a href={'https://stackoverflow.com/tags/' + tech}>{tech}</a>
+              { work.technologies.map((tech, index) => <>{ renderTag(tech) }
                 { (index < work.technologies.length - 1) && ", " }
               </>) }.
             </li>
