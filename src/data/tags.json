@@ -68,6 +68,27 @@
       "Java"
     ]
   },
+  "JavaScript": {
+    "id": "JavaScript",
+    "@id": "https://en.wikipedia.org/wiki/JavaScript",
+    "name": "JavaScript programming language",
+    "description": "A programming language often used to add interactivity to websites, but also capable of being used for any purpose through the Node.js runtime.",
+    "urls": [
+      "https://nodejs.org/"
+    ]
+  },
+  "NPM": {
+    "id": "NPM",
+    "@id": "https://www.npmjs.com/",
+    "name": "NPM",
+    "description": "A package manager for the JavaScript programming language.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Npm_(software)"
+    ],
+    "seeAlso": [
+      "JavaScript"
+    ]
+  },
   "caDSR": {
     "id": "caDSR",
     "@id": "https://datascience.cancer.gov/resources/metadata",
@@ -174,6 +195,12 @@
     "urls": [
       "https://en.wikipedia.org/wiki/Slurm_Workload_Manager"
     ]
+  },
+  "Software testing": {
+    "id": "Software testing",
+    "@id": "https://en.wikipedia.org/wiki/Software_testing",
+    "name": "Software testing",
+    "description": "Software tools and techniques used to test whether other software tools are functioning correctly."
   },
   "web APIs": {
     "id": "web APIs",

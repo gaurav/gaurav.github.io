@@ -41,7 +41,7 @@ export function renderCreativeWork(work) {
     case 'schema:SoftwareSourceCode':
       return <>
         <strong>Software</strong>: <a href={url}>{name}</a>
-        { startTime && endTime && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
+        { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
         <ul class="compressed">
           { work.technologies &&
@@ -72,6 +72,8 @@ export function renderCreativeWork(work) {
       if (!url) throw new Error("Unable to render creative work without an '@id': " + work);
       return <>
         <strong>Link</strong>: <a href={url}>{name}</a>
+        { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
+        { work.description && <>{": "}{work.description}</> }
       </>;
   }
 }

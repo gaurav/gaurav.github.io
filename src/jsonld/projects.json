@@ -102,46 +102,66 @@
     },
     {
       "@type": "schema:Project",
+      "@id": "https://www.phyloref.org/",
       "startDate": "2018-01-02",
-      "endDate": "2020-12-20",
+      "endDate": "2019-10-11",
       "name": "The Phyloreferencing Project",
-      "description": "",
+      "description": "The Phyloreferencing project aims to digitize definitions of clades (groups of related taxa that are a key concept in evolutionary biology) as semantically rich OWL ontologies, which are both human-readable and computer-interpretable.",
       "products": [{
-        "@id": "http://shacli.org/",
+        "@id": "https://github.com/phyloref/phyx.js",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
+        "startDate": "2019-01-18",
+        "name": "Phyx.js",
+        "description": "A software library for reading and validating Phyx files for storing clade definitions, which can convert them into OWL ontologies for publication and reasoning.",
+        "codeRepository": "https://github.com/phyloref/phyx.js",
         "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
+          "JavaScript",
+          "NPM",
+          "Web Ontology Language"
         ],
         "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+          "Read and validate Phyx files.",
+          "Convert Phyx files into OWL ontologies for publication and reasoning."
         ]
       }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@id": "https://github.com/phyloref/jphyloref",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "startDate": "2017-09-25",
+        "endDate": "2020-05-18",
+        "name": "JPhyloRef",
+        "description": "A Java-based command line tool for reasoning over and testing ontologies that include phyloreferences.",
+        "codeRepository": "https://github.com/phyloref/jphyloref",
         "technologies": [
-          "Scala",
-          "SSSOM",
-          "RDF"
+          "Java",
+          "Web Ontology Language",
+          "Software testing",
+          "web APIs"
         ],
         "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
+          "Reason over ontologies containing phyloreferences and phylogenies to report on which nodes each phyloreference resolves to.",
+          "Test whether ontologies containing phyloreferences and reference phylogenies resolve as expected.",
+          "Run as a web server to serve a web API as a backend for Klados and other services."
         ]
+      }, {
+        "@id": "https://github.com/phyloref/klados",
+        "name": "Klados",
+        "startDate": "2020-08-02",
+        "endDate": "2017-10-12"
+      }, {
+        "@id": "https://github.com/phyloref/open-tree-resolver",
+        "name": "Open Tree Resolver",
+        "startDate": "2020-09-07",
+        "endDate": "2019-02-22"
+      }, {
+        "@id": "https://github.com/phyloref/phyloref-ontology",
+        "name": "Phyloref Ontology",
+        "startDate": "2013-06-12",
+        "endDate": "2020-11-19"
+      }, {
+        "@id": "https://github.com/phyloref/clade-ontology",
+        "name": "Clade Ontology",
+        "startDate": "2017-06-20",
+        "endDate": "2020-05-22"
       }]
     },
     {
