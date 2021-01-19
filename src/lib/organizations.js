@@ -24,3 +24,22 @@ export function getOrganizationNamePlaceSpan(org) {
     }
   }
 }
+
+export function getOrganizationNamePlaceString(org) {
+  if (!org) return "";
+
+  const addThe = org.addThe;
+  const url = org["@id"];
+  const name = org.name;
+  const location = org.location;
+
+  if (!name) {
+    throw new Error("Organization " + org + " does not have a name.");
+  } else {
+    if (location) {
+      return (addThe ? "the " : "") + name + " at " + location;
+    } else {
+      return (addThe ? "the " : "") + name;
+    }
+  }
+}

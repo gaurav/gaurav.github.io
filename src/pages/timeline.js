@@ -8,6 +8,8 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
+import slugify from 'slugify'
+
 import css from "./timeline.module.css"
 
 import timelineData from "../jsonld/timeline.json"
@@ -33,13 +35,15 @@ export default function TimelinePage() {
     <Layout title="Timeline">
       {
         roles.map((role, index) => {
-          return (<div class={css.timelineEvent}>
+          const slug = slugify(role.roleName + '-' + orgs.getOrganizationNamePlaceString(role.organization));
+          return (<div id={slug} class={css.timelineEvent}>
             <div>
               { dates.getShortDiffSpan(role.startTime, role.endTime) }
               {" "}&bull;{" "}
               <strong>{ role.roleName }</strong>
               {" "}at{" "}
               { orgs.getOrganizationNamePlaceSpan(role.organization) }
+              {" "}<a href={"#" + slug}>#</a>
             </div>
             <div class={css.timelineInset}>
               { role.organization.parentOrganization && <div>
