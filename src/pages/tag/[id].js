@@ -24,9 +24,11 @@ export default function Component(props) {
     const tagName = tagInfo.name
 
     return (
-      <Layout>
+      <Layout
+        goBackTo="/tags"
+        goBackText="Return to the list of tags"
+      >
         <SEO title={tagName} />
-        <small><Link to="/tags">Return to the list of tags</Link></small>
         <h1>{tagName}{ (tagInfo.id && tagInfo.id !== tagName) && <>{" (" + tagInfo.id + ")"}</>}</h1>
 
         <p>{tagInfo.description}</p>

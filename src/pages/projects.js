@@ -1,5 +1,6 @@
 import React from "react"
 import { DateTime } from "luxon"
+import { Link } from "gatsby"
 
 import * as dates from "../lib/dates.js"
 import * as orgs from "../lib/organizations.js"
@@ -9,7 +10,6 @@ import { ReferenceManager } from "../lib/entities.js"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
 
 import css from "./projects.module.css"
 
@@ -42,10 +42,8 @@ export default function TimelinePage() {
     );
 
   return (
-    <Layout>
-      <SEO title="Projects" />
-      <h1>Projects</h1>
-
+    <Layout title="Projects">
+    
       {
         projects.map((project, index) => {
           return (<div>

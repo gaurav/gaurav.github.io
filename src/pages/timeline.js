@@ -30,10 +30,7 @@ export default function TimelinePage() {
     );
 
   return (
-    <Layout>
-      <SEO title="Timeline" />
-      <h1>Timeline</h1>
-
+    <Layout title="Timeline">
       {
         roles.map((role, index) => {
           return (<div class={css.timelineEvent}>
