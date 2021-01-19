@@ -51,10 +51,10 @@ export function renderCreativeWork(work) {
               </>) }.
             </li>
           }
-          { work.uses &&
-            <li>Can fulfil the following uses:
+          { work.features &&
+            <li>Provides the following features:
             <ul class="compressed">
-              { work.uses.map(use => <li>{use}</li>) }
+              { work.features.map(feature => <li>{feature}</li>) }
             </ul>
             </li>
           }

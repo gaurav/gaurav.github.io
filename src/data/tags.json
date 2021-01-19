@@ -2,7 +2,7 @@
   "Scala": {
     "id": "Scala",
     "@id": "https://www.scala-lang.org/",
-    "name": "Scala",
+    "name": "Scala programming language",
     "description": "A functional and object-oriented programming language built upon the Java Virtual Machine (JVM).",
     "urls": [
       "https://en.wikipedia.org/wiki/Scala_(programming_language)"
@@ -11,10 +11,39 @@
   "Java": {
     "id": "Java",
     "@id": "https://java.com/",
-    "name": "Java",
+    "name": "Java programming language",
     "description": "An object-oriented programming language.",
     "urls": [
       "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ]
+  },
+  "Java virtual machine": {
+    "id": "Java virtual machine",
+    "@id": "https://en.wikipedia.org/wiki/Java_virtual_machine",
+    "name": "Java virtual machine",
+    "description": "A virtual machine for running Java programs. Many other languages, such as Scala, compile programs into Java bytecode so that they can run on the Java virtual machine.",
+    "seeAlso": [
+      "Java",
+      "Scala"
+    ]
+  },
+  "Apache Maven": {
+    "id": "Apache Maven",
+    "@id": "https://maven.apache.org/",
+    "name": "Apache Maven",
+    "description": "A software packaging system for Java and Scala packages.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Apache_Maven"
+    ]
+  },
+  "Coursier": {
+    "id": "Coursier",
+    "@id": "https://get-coursier.io/",
+    "name": "Coursier",
+    "description": "A tool for running Java virtual machine programs directly from Apache Maven repositories.",
+    "seeAlso": [
+      "Apache Maven",
+      "Java virtual machine"
     ]
   },
   "Apache Ant": {
@@ -145,5 +174,11 @@
     "urls": [
       "https://en.wikipedia.org/wiki/Slurm_Workload_Manager"
     ]
+  },
+  "web APIs": {
+    "id": "web APIs",
+    "@id": "https://en.wikipedia.org/wiki/Web_API",
+    "name": "web APIs",
+    "description": "Any application programming interface (API) designed to be used over the World Wide Web, usually via the HTTP protocol."
   }
 }

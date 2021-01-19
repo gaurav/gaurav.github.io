@@ -29,9 +29,9 @@
           "PFB",
           "CEDAR Workbench"
         ],
-        "uses": [
+        "features": [
           "Harmonize input data against the caDSR.",
-          "Stores harmonization information (such as concepts to map particular values to) in a JSON format that can be converted into other mapping formats if needed.",
+          "Store harmonization information (such as mappings from values in data files to concepts in vocabularies) in a JSON format that can be converted into other mapping formats if needed.",
           "Export harmonized data in a variety of formats, such as the Portable Format for Biomedical Data (PFB) and the CEDAR Instance format."
         ]
       }, {
@@ -47,9 +47,9 @@
           "UMLS",
           "SSSOM"
         ],
-        "uses": [
+        "features": [
           "Extract individual mappings from the Unified Medical Language System (UMLS) Metathesaurus as SSSOM files.",
-          "Use web services (such as BioPortal and the EMBL-EBI Ontology Lookup Service) to find additional mappings from one term to another."
+          "Use web services (such as BioPortal and the EMBL-EBI Ontology Lookup Service) to find additional mappings between vocabularies."
         ]
       }]
     },
@@ -69,10 +69,13 @@
         "codeRepository": "https://github.com/gaurav/shacli",
         "technologies": [
           "Scala",
+          "Apache Maven",
+          "Coursier",
           "SHACL",
-          "RDF"
+          "RDF",
+          "web APIs"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -87,12 +90,12 @@
         "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
         "technologies": [
           "Scala",
-          "SSSOM",
-          "RDF"
+          "RDF",
+          "SHACL"
         ],
-        "uses": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
+        "features": [
+          "Extract terminologies from the MEDLINE/PubMed Baseline Repository and export them as RDF.",
+          "Extract terminologies from the COVID-19 Open Research Dataset (CORD-19) and export them as RDF.",
           "Validate produced RDF information against SHACL shapes using SHACLI."
         ]
       }]
@@ -116,7 +119,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -134,7 +137,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -160,7 +163,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -178,7 +181,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -204,7 +207,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -222,7 +225,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -248,7 +251,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -266,7 +269,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -292,7 +295,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -310,7 +313,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -336,7 +339,7 @@
           "SHACL",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Validate RDF data against SHACL shapes.",
           "Improved error messages as compared to other SHACL validators.",
           "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
@@ -354,7 +357,7 @@
           "SSSOM",
           "RDF"
         ],
-        "uses": [
+        "features": [
           "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
           "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
           "Validate produced RDF information against SHACL shapes using SHACLI."
@@ -379,7 +382,7 @@
           "Java",
           "Apache Ant"
         ],
-        "uses": [
+        "features": [
           "Replicate the techniques used in Meier et al. 2006 on your own datasets."
         ]
       }, {
@@ -405,7 +408,7 @@
           "Apache Ant",
           "Java Swing"
         ],
-        "uses": [
+        "features": [
           "Concatenating sequences from multiple genes for multiple taxa.",
           "Records sequence start and end points so that they can be un-concatenated later if needed.",
           "Includes tools for identifying unusual sequences and suppress them on export."
