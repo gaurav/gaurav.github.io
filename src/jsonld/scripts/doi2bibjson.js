@@ -22,6 +22,18 @@ function parseDate(date) {
   return convertListToSingle(dates);
 }
 
+function parseAuthors(authors) {
+  return authors.map(author => {
+
+    return {
+      '@id': author.ORCID || '',
+      'firstname': author.given || '',
+      'lastname': author.family || '',
+      'name': ((author.given || '') + ' ' + (author.family || '')).trim(),
+    }
+  });
+}
+
 // Request Crossref info on this website.
 const url = 'https://api.crossref.org/works/' + doi + '?mailto=' + mailTo
 superagent
@@ -33,7 +45,7 @@ superagent
 
     // Response.
     const body = res.body;
-    console.log("Response body:", body);
+    // console.log("Response body:", body);
 
     // The response is a JSON object. Now we just need to translate that into BibJSONish.
     const bibjson = {
@@ -42,6 +54,7 @@ superagent
       doi,
       datePublished: parseDate(body.message.issued),
       title: convertListToSingle(body.message.title),
+      authors: parseAuthors(body.message.author),
       journal: {
         name: convertListToSingle(body.message['container-title']),
         volume: body.message.volume || "",
