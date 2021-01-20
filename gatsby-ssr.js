@@ -4,4 +4,12 @@
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
 
-// You can delete this file if you're not using it
+ const React = require("react")
+
+ exports.onRenderBody = ({
+   setHeadComponents
+ }, pluginOptions) => {
+   setHeadComponents([
+     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+   ])
+ }

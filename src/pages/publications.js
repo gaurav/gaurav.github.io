@@ -27,7 +27,9 @@ export default function PublicationsPage() {
     <Layout title="Publications">
       <ul>
       {
-        publications.map((publication, index) => <li>{citations.renderCitation(publication)}</li>)
+        publications.map((publication, index) => <li>{citations.renderCitation(publication)}
+          <div data-badge-details="right" data-badge-type="2" data-doi={publication.doi} data-hide-no-mentions="true" class="altmetric-embed"></div>
+        </li>)
       }
       </ul>
     </Layout>
