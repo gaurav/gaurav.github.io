@@ -10,7 +10,7 @@ export function renderAuthors(authors) {
     const url = author['@id'] || author['url'];
     const is_last = (index === authors.length - 1);
 
-    if (url === 'https://www.ggvaidya.com/') {
+    if (url === 'https://www.ggvaidya.com/' || url === 'http://orcid.org/0000-0003-0587-0454') {
       return <>
         <strong>{author.name}</strong>
         {!is_last && ", "}

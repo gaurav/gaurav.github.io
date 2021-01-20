@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -16,8 +17,9 @@ export default function IndexPage() {
       <p>Welcome to my website! You might want to see:</p>
 
       <ul>
-        <li>A <a href="./timeline">timeline</a> of my life (it's like an extended CV).</li>
-        <li>A list of all the <a href="./projects">projects</a> I've worked on.</li>
+        <li>A <Link to="/timeline">timeline</Link> of my life (it's like an extended CV).</li>
+        <li>A list of all the <Link to="/projects">projects</Link> I've worked on.</li>
+        <li>And a list of all the <Link to="/publications">publications</Link> I've worked on.</li>
       </ul>
 
       <p>You can find me on other websites:</p>
