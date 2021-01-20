@@ -15,10 +15,12 @@ import Layout from "../components/layout"
 import css from "./projects.module.css"
 
 import projectsData from "../jsonld/projects.json"
+import publicationsData from "../jsonld/publications.json"
 import citationsData from "../jsonld/citations.json"
 
 export default function TimelinePage() {
   const refs = new ReferenceManager();
+  refs.addEntitiesFromData(publicationsData);
   refs.addEntitiesFromData(citationsData);
   const filledProjectData = refs.fillReferences(projectsData);
   console.log("Filled project data:", filledProjectData);
