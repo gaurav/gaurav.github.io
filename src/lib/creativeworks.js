@@ -4,6 +4,7 @@
 
 import React from "react"
 import { DateTime } from "luxon"
+import slugify from "slugify"
 
 import * as citations from "./citations.js"
 import * as dates from "./dates.js"
@@ -28,21 +29,23 @@ export function renderLicense(license) {
   }
 }
 
-export function renderCreativeWork(work) {
+export function renderCreativeWork(work, parentSlug="creative-work") {
   if (!work) return;
 
   const url = work['@id'] || work['url'];
   const name = work.name || "Unnamed creative work";
   const type = work['@type'];
+  const slug = `${parentSlug}-${slugify(work.name || url)}`;
   const startTime = work.startDate ? DateTime.fromISO(work.startDate) : undefined;
   const endTime = work.endDate ? DateTime.fromISO(work.endDate) : undefined;
 
   switch (type) {
     case 'schema:SoftwareSourceCode':
       return <>
-        <strong>Software</strong>: <a href={url}>{name}</a>
+        <strong>Software</strong>: <a id={slug} href={url}>{name}</a>
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
+        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
         <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}
@@ -65,15 +68,17 @@ export function renderCreativeWork(work) {
 
     case 'http://okfnlabs.org/bibjson/':
       return <>
-        <strong>Article</strong>: { citations.renderCitation(work) }
+        <strong id={slug}>Article</strong>: { citations.renderCitation(work) }
+        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
         </>
 
     default:
       if (!url) throw new Error("Unable to render creative work without an '@id': " + work);
       return <>
-        <strong>Link</strong>: <a href={url}>{name}</a>
+        <strong>Link</strong>: <a id={slug} href={url}>{name}</a>
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
+        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
       </>;
   }
 }

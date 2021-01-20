@@ -1,6 +1,7 @@
 import React from "react"
 import { DateTime } from "luxon"
 import { Link } from "gatsby"
+import slugify from "slugify"
 
 import * as dates from "../lib/dates.js"
 import * as orgs from "../lib/organizations.js"
@@ -43,21 +44,22 @@ export default function TimelinePage() {
 
   return (
     <Layout title="Projects">
-    
+
       {
         projects.map((project, index) => {
+          const slug = slugify(project.name);
+
           return (<div>
-            <div class={css.projectTitle}>
+            <div id={slug} class={css.projectTitle}>
               { dates.getShortDiffSpan(project.startTime, project.endTime) }
               {" "}&bull;{" "}
               <strong>{ project.name }</strong>
-            </div>
-            <div class={css.projectInset}>
-
+              {" "}
+              <a class="section-link" href={"#" + slug}>&sect;</a>
             </div>
             { project.description && <p>{ project.description }</p> }
             <p><ul class="uncompressed">
-              { project.products.map(product => <li>{creativeworks.renderCreativeWork(product)}</li>) }
+              { project.products.map(product => <li>{creativeworks.renderCreativeWork(product, slug)}</li>) }
             </ul></p>
             <hr class={css.projectEndHR} />
           </div>);
