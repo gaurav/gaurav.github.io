@@ -117,7 +117,9 @@
         "technologies": [
           "JavaScript",
           "NPM",
-          "Web Ontology Language"
+          "Web Ontology Language",
+          "JSON",
+          "JSON-LD"
         ],
         "features": [
           "Read and validate Phyx files.",
@@ -134,6 +136,7 @@
         "technologies": [
           "Java",
           "Web Ontology Language",
+          "JSON-LD",
           "Software testing",
           "web APIs"
         ],
@@ -145,110 +148,103 @@
       }, {
         "@id": "https://github.com/phyloref/klados",
         "name": "Klados",
+        "@type": "schema:SoftwareSourceCode",
         "startDate": "2020-08-02",
-        "endDate": "2017-10-12"
+        "endDate": "2017-10-12",
+        "technologies": [
+          "JavaScript",
+          "Vue.js",
+          "JSON",
+          "web APIs"
+        ]
       }, {
         "@id": "https://github.com/phyloref/open-tree-resolver",
         "name": "Open Tree Resolver",
+        "@type": "schema:SoftwareSourceCode",
         "startDate": "2020-09-07",
-        "endDate": "2019-02-22"
+        "endDate": "2019-02-22",
+        "technologies": [
+          "JavaScript",
+          "Vue.js",
+          "web APIs"
+        ]
       }, {
         "@id": "https://github.com/phyloref/phyloref-ontology",
         "name": "Phyloref Ontology",
+        "@type": "schema:SoftwareSourceCode",
         "startDate": "2013-06-12",
-        "endDate": "2020-11-19"
+        "endDate": "2020-11-19",
+        "technologies": [
+          "Web Ontology Language",
+          "ontologies"
+        ]
       }, {
         "@id": "https://github.com/phyloref/clade-ontology",
         "name": "Clade Ontology",
+        "@type": "schema:SoftwareSourceCode",
         "startDate": "2017-06-20",
-        "endDate": "2020-05-22"
-      }]
-    },
-    {
-      "@type": "schema:Project",
-      "startDate": "2018-01-02",
-      "endDate": "2020-12-20",
-      "name": "PhD dissertation",
-      "description": "",
-      "products": [{
-        "@id": "http://shacli.org/",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
+        "endDate": "2020-05-22",
         "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
-        ],
-        "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
-        ]
-      }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
-        "technologies": [
-          "Scala",
-          "SSSOM",
-          "RDF"
-        ],
-        "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
+          "JavaScript",
+          "Web Ontology Language",
+          "ontologies"
         ]
       }]
     },
     {
       "@type": "schema:Project",
-      "startDate": "2018-01-02",
+      "startDate": "2011-08-22",
       "endDate": "2020-12-20",
-      "name": "Dbpedia Commons",
-      "description": "",
+      "name": "Ph.D. dissertation",
+      "description": "In my Ph.D. dissertation, I developed methods for quantifying the rate of change with taxonomic checklists, and the effect such changes can have on the interpretation of biodiversity data.",
       "products": [{
-        "@id": "http://shacli.org/",
+        "@id": "https://github.com/gaurav/scinames",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
+        "startDate": "2019-05-26",
+        "endDate": "2017-04-30",
+        "name": "SciNames",
+        "description": "A graphical user interface (GUI) for processing changes among taxonomic checklists. SciNames imports multiple taxonomic checklists into a single XML file, and then generates lists of changes between those checklists. Users can then use the GUI to annotate these changes, recording why each change had occurred and what sort of change it was. SciNames can then calculate some statistics on the changes.",
+        "codeRepository": "https://github.com/gaurav/scinames",
         "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
+          "Java",
+          "Java Swing",
+          "XML"
         ],
         "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
+          "Convert taxonomic checklists into XML representations that store both multiple taxonomic checklists as well as annotated changes between them.",
+          "Provides a graphical user interface (GUI) showing changes between checklists and allowing those changes to be modified or annotated.",
+          "Calculates measures of stability among a series of checklists over time and exports data in formats amenable for rendering as graphs."
         ]
       }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
+        "@id": "https://doi.org/10.31237/osf.io/n2kh5"
+      }, {
+        "@id": "https://doi.org/10.1371/journal.pone.0195736"
+      }, {
+        "@id": "https://doi.org/10.3897/zookeys.420.7089"
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "startDate": "2014-05-19",
+      "endDate": "2014-08-22",
+      "name": "DBpedia Commons at Google Summer of Code",
+      "description": "",
+      "products": [{
+        "@id": "https://github.com/dbpedia/extraction-framework",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
+        "startDate": "2014-05-31",
+        "endDate": "2014-08-18",
+        "name": "DBpedia Extraction Framework",
+        "description": "",
+        "codeRepository": "https://github.com/dbpedia/extraction-framework/commits?author=gaurav",
         "technologies": [
           "Scala",
-          "SSSOM",
           "RDF"
         ],
         "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
+          "Added support for extracting metadata regarding media files in the Wikimedia Commons, including links to the raw files themselves.",
+          "Added support for identifying templates that indicated open access licenses so that these could be included in the RDF generated.",
+          "Added support for extracting annotations for parts of an image and exporting those in RDF."
         ]
       }]
     },
