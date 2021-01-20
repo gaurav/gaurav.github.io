@@ -5,6 +5,8 @@ import Layout from "../../components/layout"
 // import Image from "../components/image"
 import SEO from "../../components/seo"
 
+import * as tags from "../../lib/tags.js"
+
 import tagData from "../../data/tags.json"
 
 export default function Component(props) {
@@ -32,6 +34,14 @@ export default function Component(props) {
         <h1>{tagName}{ (tagInfo.id && tagInfo.id !== tagName) && <>{" (" + tagInfo.id + ")"}</>}</h1>
 
         <p>{tagInfo.description}</p>
+
+        {tagInfo.seeAlso && <p>
+          See also: {tagInfo.seeAlso.map((tag, index) => <>
+              { tags.renderTag(tag) }
+              {(index < tagInfo.seeAlso.length - 1) && <>{", "}</>}
+            </>
+          )}
+        </p>}
 
         <ul>
           {tagInfo['@id'] && <li><a href={tagInfo['@id']}>{tagInfo['@id']}</a></li>}
