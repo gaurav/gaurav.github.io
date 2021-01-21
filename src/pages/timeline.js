@@ -1,5 +1,6 @@
 import React from "react"
 import { DateTime } from "luxon"
+import { Link } from "gatsby"
 
 import slugify from 'slugify'
 
@@ -23,9 +24,10 @@ export default function TimelinePage() {
   const refs = new ReferenceManager();
   refs.addEntitiesFromData(publicationsData);
   refs.addEntitiesFromData(citationsData);
+  const filledTimelineData = refs.fillReferences(timelineData);
   const filledProjectData = refs.fillReferences(projectsData);
 
-  const roles = timelineData.hasRole
+  const roles = filledTimelineData.hasRole
     .map(src => {
       const dest = {...src};
       dest.startTime = DateTime.fromISO(dest.startDate);
@@ -47,20 +49,30 @@ export default function TimelinePage() {
 
     // TODO: sort products in time order.
 
-    return filledProjectData.projects.filter(project => project.role === roleId).map(project => {
-      const projectSlug = slug + '-' + slugify(project.name)
-      const startTime = DateTime.fromISO(project.startDate)
-      const endTime = DateTime.fromISO(project.endDate)
-      return <>
-        <li id={projectSlug}>
-          Project: {project.name} ({ dates.getShortDiffSpan(startTime, endTime) }): { project.description}
-          {" "}<a class="section-link" href={'#' + projectSlug}>&sect;</a>
-        </li>
-        { project.products && <ul class="uncompressed">
-          { project.products.map(product => <li>{creativeworks.renderCreativeWorkShort(product, projectSlug)}</li>) }
-        </ul> }
-      </>
-    })
+    return filledProjectData.projects
+      .map(src => {
+        const dest = {...src};
+        dest.startTime = DateTime.fromISO(dest.startDate);
+        dest.endTime = DateTime.fromISO(dest.endDate);
+        return dest;
+      })
+      .sort(
+        (a, b) => b.endTime.toMillis() - a.endTime.toMillis()
+      )
+      .filter(project => project.role === roleId).map(project => {
+        const projectSlug = slug + '-' + slugify(project.name)
+        const startTime = DateTime.fromISO(project.startDate)
+        const endTime = DateTime.fromISO(project.endDate)
+        return <>
+          <li id={projectSlug}><a class="section-link" href={'#' + projectSlug}>&sect;</a>
+            <strong>Project:</strong> <Link to={'/projects#' + slugify(project.name)}>{project.name}</Link> ({ dates.getShortDiffSpan(startTime, endTime) }): { project.description}
+
+          </li>
+          { project.products && <ul class="uncompressed">
+            { project.products.map(product => <li>{creativeworks.renderCreativeWorkShort(product, projectSlug)}</li>) }
+          </ul> }
+        </>
+      })
   }
 
   return (
@@ -73,12 +85,12 @@ export default function TimelinePage() {
           const slug = slugify(role.roleName + '-' + orgs.getOrganizationNamePlaceString(role.organization));
           return (<div id={slug} class={css.timelineEvent}>
             <div>
+              <a class="section-link" href={"#" + slug}>&sect;</a>
               { dates.getShortDiffSpan(role.startTime, role.endTime) }
               {" "}&bull;{" "}
               <strong>{ role.roleName }</strong>
               {" "}at{" "}
               { orgs.getOrganizationNamePlaceSpan(role.organization) }
-              {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
             </div>
             <div class={css.timelineInset}>
               { role.organization.parentOrganization && <div>
@@ -97,10 +109,8 @@ export default function TimelinePage() {
             </div>
             { role.description && <p>{ role.description }</p> }
             <p><ul class="uncompressed roleProducts">
-              { (role.relatedLink || []).map(link => {
-                return <li>Link: <a href={link['@id']}>{link.label}</a>{ link.description && <>{": "}{link.description}</>}</li>
-              })}
               { getProjectsForRole(role, slug) }
+              { (role.products || []).map(product => <li>{creativeworks.renderCreativeWork(product, slug, false)}</li>) }
             </ul></p>
           </div>);
         })

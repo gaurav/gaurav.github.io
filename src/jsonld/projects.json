@@ -100,6 +100,8 @@
           "Extract terminologies from the COVID-19 Open Research Dataset (CORD-19) and export them as RDF.",
           "Validate produced RDF information against SHACL shapes using SHACLI."
         ]
+      }, {
+        "@id": "https://doi.org/10.1093/bioinformatics/btaa718"
       }]
     },
     {
@@ -125,7 +127,8 @@
         ],
         "features": [
           "Read and validate Phyx files.",
-          "Convert Phyx files into OWL ontologies for publication and reasoning."
+          "Convert Phyx files into OWL ontologies for publication and reasoning.",
+          "Includes a test of phyloreferences on every possible topology up to 6 leaf nodes."
         ]
       }, {
         "@id": "https://github.com/phyloref/jphyloref",
@@ -158,6 +161,12 @@
           "Vue.js",
           "JSON",
           "web APIs"
+        ],
+        "description": "A single-page application for curating, testing and resolving phyloreferences.",
+        "features": [
+          "Provides a graphical user interface for reading and writing Phyx files describing phyloreferences.",
+          "Allows users to add and visualize phylogenies, and test resolution of phyloreferences on those phylogenies.",
+          "Export Phyx files as OWL ontologies."
         ]
       }, {
         "@id": "https://github.com/phyloref/open-tree-resolver",
@@ -169,6 +178,11 @@
           "JavaScript",
           "Vue.js",
           "web APIs"
+        ],
+        "description": "A single-page application for testing phyloreference resolution on the Open Tree of Life.",
+        "features": [
+          "Upload OWL ontologies representing phyloreferences as JSON-LD files.",
+          "Reason over the phyloreferences to resolve them on the relevant section of the Synthetic Tree as downloaded via Open Tree of Life APIs."
         ]
       }, {
         "@id": "https://github.com/phyloref/phyloref-ontology",
@@ -179,6 +193,10 @@
         "technologies": [
           "Web Ontology Language",
           "ontologies"
+        ],
+        "description": "An ontology containing terms used to concisely and precisely define phyloreferences.",
+        "features": [
+          "My contribution here was mainly to suggest some additional terms."
         ]
       }, {
         "@id": "https://github.com/phyloref/clade-ontology",
@@ -190,12 +208,17 @@
           "JavaScript",
           "Web Ontology Language",
           "ontologies"
+        ],
+        "description": "An ontology containing phyloreferences translated from published clade definitions.",
+        "features": [
+          "A Node.js-based workflow for converting folders of Phyx files into a single large OWL ontology.",
+          "Includes tools for testing resolution of all included Phyx files."
         ]
       }]
     },
     {
       "@type": "schema:Project",
-      "role": "#PhD-student-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "role": "#PhD-in-Ecology-and-Evolutionary-Biology-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
       "startDate": "2011-08-22",
       "endDate": "2020-12-20",
       "name": "PhD dissertation",
@@ -228,18 +251,72 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
+      "startDate": "2011",
+      "endDate": "2015",
+      "name": "Map of Life",
+      "description": "An NSF-funded project to synthesize different kinds of biodiversity data — from occurrences to rangemaps — into a single, easy-to-use tool. I worked on the Map of Life project, usually during summer holidays, under the supervision of my PhD advisor, Rob Guralnick.",
+      "products": [
+        {
+          "@id": "https://github.com/MapofLife/vernacular-names",
+          "@type": "schema:SoftwareSourceCode",
+          "startDate": "2014-02-28",
+          "endDate": "2015-07-24",
+          "name": "Vernacular Names",
+          "description": "A web application for managing the synthesis and verification of vernacular name information for Map of Life.",
+          "codeRepository": "https://github.com/MapofLife/vernacular-names",
+          "technologies": [
+            "Python",
+            "PostgreSQL"
+          ],
+          "features": [
+            "Lists all vernacular names across multiple languages for each taxonomic name.",
+            "Includes scripts for importing particular vernacular name databases into this system.",
+            "Allow curators to improve vernacular names.",
+            "Produce reports on vernacular name coverage across important languages.",
+            "Use regular expressions to make multiple simulatenous changes."
+          ]
+        },
+        {
+          "@id": "https://github.com/gaurav/taxrefine",
+          "@type": "schema:SoftwareSourceCode",
+          "startDate": "2013-06-17",
+          "endDate": "2014-05-28",
+          "name": "TaxRefine",
+          "description": "Provides an OpenRefine reconcilation service API for matching taxonomic names against several services.",
+          "codeRepository": "https://github.com/gaurav/taxrefine",
+          "technologies": [
+            "Python",
+            "OpenRefine",
+            "web APIs"
+          ],
+          "features": [
+            "Queries multiple taxonomic name resolution services to provide several possible resolutions to a user."
+          ]
+        },
+        {
+          "@id": "https://blog.vertnet.org/post/56169017224/taxonomic-validation-vaidya",
+          "startDate": "2013-07-22",
+          "endDate": "2013-07-22",
+          "name": "Validating scientific names with the GBIF Checklist Bank",
+          "description": "A blog post describing TaxRefine."
+        }
+      ]
+    },
+    {
+      "@type": "schema:Project",
       "role": "#Student-developer-DBpedia-at-Boulder-Colorado-USA",
       "startDate": "2014-05-19",
       "endDate": "2014-08-22",
       "name": "DBpedia Commons at Google Summer of Code",
-      "description": "",
+      "description": "For a Google Summer of Code project in summer 2014, I worked on extending the DBpedia Extraction Framework to be able to extract information from the Wikimedia Commons database dumps and make them available as RDF.",
       "products": [{
         "@id": "https://github.com/dbpedia/extraction-framework",
         "@type": "schema:SoftwareSourceCode",
         "startDate": "2014-05-31",
         "endDate": "2014-08-18",
         "name": "DBpedia Extraction Framework",
-        "description": "",
+        "description": "I made some improvements to the DBpedia Extraction Framework to allow them to extract information from the Wikimedia Commons.",
         "codeRepository": "https://github.com/dbpedia/extraction-framework/commits?author=gaurav",
         "technologies": [
           "Scala",
@@ -250,140 +327,55 @@
           "Added support for identifying templates that indicated open access licenses so that these could be included in the RDF generated.",
           "Added support for extracting annotations for parts of an image and exporting those in RDF."
         ]
-      }]
-    },
-    {
-      "@type": "schema:Project",
-      "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
-      "startDate": "2018-01-02",
-      "endDate": "2020-12-20",
-      "name": "TaxRefine",
-      "description": "",
-      "products": [{
-        "@id": "http://shacli.org/",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
-        "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
-        ],
-        "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
-        ]
       }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
-        "technologies": [
-          "Scala",
-          "SSSOM",
-          "RDF"
-        ],
-        "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
-        ]
+        "@id": "https://doi.org/10.1007/978-3-319-25010-6_17"
+      }, {
+        "@id": "https://www.google-melange.com/archive/gsoc/2014/orgs/dbpediaspotlight/projects/gaurav.html",
+        "name": "Project description on Google Summer of Code's website"
+      }, {
+        "@id": "https://commons.wikimedia.org/wiki/User:Gaurav/DBpedia",
+        "name": "Project report on the Wikimedia Commons"
       }]
     },
     {
+      "@id": "https://about.biodiversitylibrary.org/projects/past-projects/art-of-life/",
       "@type": "schema:Project",
       "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
-      "startDate": "2018-01-02",
-      "endDate": "2020-12-20",
+      "startDate": "2012-05",
+      "endDate": "2015-04",
       "name": "Art of Life",
-      "description": "",
+      "description": "A project organized by the Biodiversity Heritage Library (BHL) to identical and annotate hundreds of thousands of illustrations from the documents in this digital library.",
       "products": [{
-        "@id": "http://shacli.org/",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
-        "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
-        ],
-        "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
-        ]
-      }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
-        "technologies": [
-          "Scala",
-          "SSSOM",
-          "RDF"
-        ],
-        "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
-        ]
+        "@id": "https://docs.google.com/document/d/1jjHMjWWnsErTLtms5MVuBg2wE6wtOuGmA0-UVSk5_Ts/edit",
+        "startDate": "2015-04-30",
+        "endDate": "2015-04-30",
+        "name": "Art of Life Schema",
+        "description": "I worked with my PhD advisor and some librarians at the BHL to develop a data schema for annotating biological illustrations in a way that would make them useful for biodiversity researchers."
       }]
     },
     {
       "@type": "schema:Project",
       "role": "#Software-architect-Paper-Terminal-Pte-Ltd-at-Singapore",
-      "startDate": "2018-01-02",
-      "endDate": "2020-12-20",
+      "startDate": "2008",
+      "endDate": "2011",
       "name": "OCR Terminal",
-      "description": "",
+      "description": "A start-up that focussed on providing services around optical character recognition (OCR) technology.",
       "products": [{
-        "@id": "http://shacli.org/",
+        "@id": "http://www.ocrterminal.com/",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-30",
-        "endDate": "2020-05-26",
-        "name": "SHACLI",
-        "description": "A command-line interface (CLI) for the Shapes Constraint Language (SHACL) to validate RDF data against SHACL shapes with improved error messages. This was part of a project to simplify data model creation, so that one document can be used to produce both the documentation and can be used to validate input data.",
-        "codeRepository": "https://github.com/gaurav/shacli",
+        "startDate": "2008",
+        "endDate": "2011",
+        "name": "OCR Terminal",
+        "description": "A page-per-page service that allowed customers to carry out optical character recognition (OCR) on an image.",
         "technologies": [
-          "Scala",
-          "SHACL",
-          "RDF"
+          "Perl",
+          "Amazon Web Services",
+          "web APIs"
         ],
         "features": [
-          "Validate RDF data against SHACL shapes.",
-          "Improved error messages as compared to other SHACL validators.",
-          "Published to the Maven repository, so that it is easy to install via Coursier or other Maven tools."
-        ]
-      }, {
-        "@id": "https://github.com/NCATS-Gamma/omnicorp",
-        "@type": "schema:SoftwareSourceCode",
-        "startDate": "2019-10-23",
-        "endDate": "2020-11-08",
-        "name": "Omnicorp and OmniCORD",
-        "description": "I built upon the existing Omnicorp tool to improve the RDF data being produced by it, such as authorship information. I also wrote OmniCORD, a variant of Omnicorp for extracting entities from the COVID-19 Open Research Dataset (CORD-19).",
-        "codeRepository": "https://github.com/NCATS-Gamma/omnicorp",
-        "technologies": [
-          "Scala",
-          "SSSOM",
-          "RDF"
-        ],
-        "features": [
-          "Extract RDF information from the MEDLINE/PubMed Baseline Repository.",
-          "Extract RDF information from the COVID-19 Open Research Dataset (CORD-19).",
-          "Validate produced RDF information against SHACL shapes using SHACLI."
+          "A web application allowing users to register an account, OCR a small number of documents for free, and then pay to OCR additional images.",
+          "Included a job management system, allowing jobs uploaded to OCR Terminal to be processed by the ABBYY OCR Engine we used for OCR.",
+          "Included a web API, allowing customers to batch submit multiple jobs by processing."
         ]
       }]
     },
@@ -393,13 +385,14 @@
       "startDate": "2003",
       "endDate": "2006",
       "name": "Species Identifier",
-      "description": "Species Identifier provides a set of tools for exploring intra- and interspecific genetic distances, matching sequences, and clustering sequences based on pairwise distances. It helps determine whether two sequences are likely conspecific based on pairwise distances, and can calculate pairwise distances for large datasets. It was designed to provide the analyses presented in Meier et al, 2006 (Best match, Best close match and All Species Barcodes).",
+      "description": "This project came about in response to a need for a series of projects by the Evolutionary Biology lab to investigate whether genetic distance methods could be used to correctly identify the species that a genetic sequence had been sequenced from. The tool we built allowed us to compare several different approaches to investigate this approach, and then to replicate these analyses on larger datasets than we had originally envisioned.",
       "products": [{
         "@id": "http://taxondna.sf.net/",
         "@type": "schema:SoftwareSourceCode",
         "startDate": "2006-08-20",
         "endDate": "2015-06-22",
         "name": "Species Identifier",
+        "description": "Species Identifier provides a set of tools for exploring intra- and interspecific genetic distances, matching sequences, and clustering sequences based on pairwise distances. It helps determine whether two sequences are likely conspecific based on pairwise distances, and can calculate pairwise distances for large datasets. It was designed to provide the analyses presented in Meier et al, 2006 (Best match, Best close match and All Species Barcodes).",
         "codeRepository": "http://github.com/gaurav/taxondna",
         "license": "https://www.wikidata.org/wiki/Q27016752",
         "technologies": [
@@ -418,14 +411,15 @@
       "role": "#Lab-officer-the-Evolutionary-Biology-Laboratory-at-Singapore",
       "startDate": "2009-04",
       "endDate": "2010-11-13",
-      "name": "Sequence Matrix",
-      "description": "Sequence Matrix facilitates the assembly of phylogenetic data matrices with multiple genes. Files for individual genes are dragged and dropped into a window and the sequences are concatenated. A table provides an overview over how much sequence information is available for the different genes and species. The user can request Sequence Matrix generate a wide variety of character and taxon sets (e.g. a taxon set with all species that have more than a specified number of genes or basepairs). The concatenated sequences can be exported in NEXUS or TNT format. Individual sequences can be excluded from being exported.",
+      "name": "SequenceMatrix",
+      "description": "Genetic analysis softwares at this time were designed to compare a single genetic or protein sequence between different taxa to perform comparative analyses. In the Evolutionary Biology lab, we would often perform multi-gene analyses, requiring aligned genetic sequences to be concatenated together. Modifying such datasets after concatenation could be problematic, especially if one of the constituent sequences turned out to be contamination. Sequence Matrix was intended to simplify the process of contatenation such that preserved gene boundaries could be unconcatenated if necessary, and included some tools for detecting and removing contamination from multi-gene, multi-taxon datasets.",
       "products": [{
         "@id": "http://gaurav.github.io/taxondna/",
         "@type": "schema:SoftwareSourceCode",
         "startDate": "2009-04-10",
         "endDate": "2015-06-22",
-        "name": "Sequence Matrix",
+        "name": "SequenceMatrix",
+        "description": "Sequence Matrix facilitates the assembly of phylogenetic data matrices with multiple genes. Files for individual genes are dragged and dropped into a window and the sequences are concatenated. A table provides an overview over how much sequence information is available for the different genes and species. The user can request Sequence Matrix generate a wide variety of character and taxon sets (e.g. a taxon set with all species that have more than a specified number of genes or basepairs). The concatenated sequences can be exported in NEXUS or TNT format. Individual sequences can be excluded from being exported.",
         "codeRepository": "http://github.com/gaurav/taxondna",
         "license": "https://www.wikidata.org/wiki/Q27016752",
         "technologies": [

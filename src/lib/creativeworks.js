@@ -47,9 +47,9 @@ export function renderCreativeWork(work, parentSlug="creative-work", includeDeta
     case 'schema:SoftwareSourceCode':
       return <>
         <strong>Software</strong>: <a id={slug} href={url}>{name}</a>
+        { includeDetails && <a class="section-link" href={"#" + slug}>&sect;</a> }
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
-        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
         { includeDetails && <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}
@@ -72,17 +72,17 @@ export function renderCreativeWork(work, parentSlug="creative-work", includeDeta
 
     case 'http://okfnlabs.org/bibjson/':
       return <>
+        <a class="section-link" href={"#" + slug}>&sect;</a>
         <strong id={slug}>Citation</strong>: { citations.renderCitation(work) }
-        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
         </>
 
     default:
       if (!url) throw new Error("Unable to render creative work without an '@id': " + work);
       return <>
+        <a class="section-link" href={"#" + slug}>&sect;</a>
         <strong>Link</strong>: <a id={slug} href={url}>{name}</a>
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
-        {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
       </>;
   }
 }

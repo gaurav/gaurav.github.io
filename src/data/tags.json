@@ -17,6 +17,24 @@
       "https://en.wikipedia.org/wiki/Java_(programming_language)"
     ]
   },
+  "Python": {
+    "id": "Python",
+    "@id": "https://python.org/",
+    "name": "Python programming language",
+    "description": "A general-purpose object-oriented programming language.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    ]
+  },
+  "Perl": {
+    "id": "Perl",
+    "@id": "https://www.perl.org/",
+    "name": "Perl programming language",
+    "description": "A multi-paradigm programming language.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Perl"
+    ]
+  },
   "Java virtual machine": {
     "id": "Java virtual machine",
     "@id": "https://en.wikipedia.org/wiki/Java_virtual_machine",
@@ -245,5 +263,32 @@
     "@id": "https://en.wikipedia.org/wiki/Web_API",
     "name": "web APIs",
     "description": "Any application programming interface (API) designed to be used over the World Wide Web, usually via the HTTP protocol."
+  },
+  "PostgreSQL": {
+    "id": "PostgreSQL",
+    "@id": "https://www.postgresql.org/",
+    "name": "PostgreSQL",
+    "description": "An open-source, highly-scalable and standards-compliant database management system.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/PostgreSQL"
+    ]
+  },
+  "OpenRefine": {
+    "id": "OpenRefine",
+    "@id": "https://openrefine.org/",
+    "name": "OpenRefine",
+    "description": "An open-source web application for cleaning up messy spreadsheet-like data.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/OpenRefine"
+    ]
+  },
+  "Amazon Web Services": {
+    "id": "Amazon Web Services",
+    "@id": "https://aws.amazon.com/",
+    "name": "Amazon Web Services",
+    "description": "A widely-used cloud infrastructure provider.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+    ]
   }
 }

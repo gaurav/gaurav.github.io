@@ -53,11 +53,10 @@ export default function TimelinePage() {
 
           return (<div>
             <div id={slug} class={css.projectTitle}>
+              <a class="section-link" href={"#" + slug}>&sect;</a>
               { dates.getShortDiffSpan(project.startTime, project.endTime) }
               {" "}&bull;{" "}
               <strong>{ project.name }</strong>
-              {" "}
-              <a class="section-link" href={"#" + slug}>&sect;</a>
             </div>
             { project.description && <p>{ project.description }</p> }
             <p><ul class="uncompressed">

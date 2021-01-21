@@ -12,7 +12,7 @@ export function renderAuthors(authors) {
 
     if (url === 'https://www.ggvaidya.com/' || url === 'http://orcid.org/0000-0003-0587-0454') {
       return <>
-        <strong>{author.name}</strong>
+        <strong><em>{author.name}</em></strong>
         {!is_last && ", "}
         </>;
     } else if (!url) {

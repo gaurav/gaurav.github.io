@@ -27,4 +27,8 @@ span[title].no-title-dash {
 /* Little section symbols to use to grab a local link */
 .section-link {
   font-weight: lighter;
+  float: right;
+}
+.section-link:hover {
+  font-weight: bold;
 }
