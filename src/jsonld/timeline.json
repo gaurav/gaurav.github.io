@@ -29,6 +29,12 @@
         },
         "location": "Chapel Hill, North Carolina, USA"
       },
+      "products": [
+        {
+          "@id": "https://renci.org/staff/gaurav-vaidya/",
+          "name": "My page on the RENCI website"
+        }
+      ],
       "description": "I work on several projects to facilitate the re-use of biomedical data by other scientists, with a particular focus on using Semantic Web technologies to make scientific data findable, accessible, interoperable, and reusable. To achieve this, I work with tools that use standards such as RDF and JSON-LD to store and transmit semantically rich data, use ontologies written in OWL to reason over data, and use descriptions in SHACL and ShEx to validate data and document data models. Where existing tools are unavailable or inadequate, I write software tools to fill this need. My current projects focus on genetic, disease and other biomedical data, but I look forward to working with other kinds of data in the future. I work primarily in Scala to build these tools."
     },
     {
