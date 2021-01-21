@@ -29,7 +29,11 @@ export function renderLicense(license) {
   }
 }
 
-export function renderCreativeWork(work, parentSlug="creative-work") {
+export function renderCreativeWorkShort(work, parentSlug="creative-work") {
+  return renderCreativeWork(work, parentSlug, false)
+}
+
+export function renderCreativeWork(work, parentSlug="creative-work", includeDetails=true) {
   if (!work) return;
 
   const url = work['@id'] || work['url'];
@@ -46,7 +50,7 @@ export function renderCreativeWork(work, parentSlug="creative-work") {
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
         { work.description && <>{": "}{work.description}</> }
         {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
-        <ul class="compressed">
+        { includeDetails && <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}
               { work.technologies.map((tech, index) => <>{ renderTag(tech) }
@@ -63,12 +67,12 @@ export function renderCreativeWork(work, parentSlug="creative-work") {
           }
           { work.codeRepository && <li>Source code available at <a href={work.codeRepository}>{work.codeRepository}</a>.</li> }
           { work.license && <li>Released under the {renderLicense(work.license)}.</li> }
-        </ul>
+        </ul> }
       </>;
 
     case 'http://okfnlabs.org/bibjson/':
       return <>
-        <strong id={slug}>Article</strong>: { citations.renderCitation(work) }
+        <strong id={slug}>Citation</strong>: { citations.renderCitation(work) }
         {" "}<a class="section-link" href={"#" + slug}>&sect;</a>
         </>
 

@@ -11,6 +11,7 @@
   "projects": [
     {
       "@type": "schema:Project",
+      "role": "#Semantics-web-technologist-the-Renaissance-Computing-Institute-(RENCI)-at-Chapel-Hill-North-Carolina-USA",
       "startDate": "2019-10-21",
       "endDate": "2020-12-20",
       "name": "CCDH",
@@ -55,6 +56,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Semantics-web-technologist-the-Renaissance-Computing-Institute-(RENCI)-at-Chapel-Hill-North-Carolina-USA",
       "startDate": "2019-10-21",
       "endDate": "2020-12-20",
       "name": "Small projects at RENCI",
@@ -102,7 +104,7 @@
     },
     {
       "@type": "schema:Project",
-      "@id": "https://www.phyloref.org/",
+      "role": "#Postdoctoral-associate-the-Florida-Museum-of-Natural-History-at-Gainesville-Florida-USA",
       "startDate": "2018-01-02",
       "endDate": "2019-10-11",
       "name": "The Phyloreferencing Project",
@@ -193,10 +195,11 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#PhD-student-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
       "startDate": "2011-08-22",
       "endDate": "2020-12-20",
-      "name": "Ph.D. dissertation",
-      "description": "In my Ph.D. dissertation, I developed methods for quantifying the rate of change with taxonomic checklists, and the effect such changes can have on the interpretation of biodiversity data.",
+      "name": "PhD dissertation",
+      "description": "In my PhD dissertation, I developed methods for quantifying the rate of change with taxonomic checklists, and the effect such changes can have on the interpretation of biodiversity data.",
       "products": [{
         "@id": "https://github.com/gaurav/scinames",
         "@type": "schema:SoftwareSourceCode",
@@ -225,6 +228,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Student-developer-DBpedia-at-Boulder-Colorado-USA",
       "startDate": "2014-05-19",
       "endDate": "2014-08-22",
       "name": "DBpedia Commons at Google Summer of Code",
@@ -250,6 +254,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
       "startDate": "2018-01-02",
       "endDate": "2020-12-20",
       "name": "TaxRefine",
@@ -294,6 +299,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
       "startDate": "2018-01-02",
       "endDate": "2020-12-20",
       "name": "Art of Life",
@@ -338,6 +344,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Software-architect-Paper-Terminal-Pte-Ltd-at-Singapore",
       "startDate": "2018-01-02",
       "endDate": "2020-12-20",
       "name": "OCR Terminal",
@@ -382,6 +389,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Bachelor-of-Science-(with-Merit)-in-Life-Sciences-with-minors-in-Computational-Science-and-Economics-Department-of-Biological-Sciences-at-Singapore",
       "startDate": "2003",
       "endDate": "2006",
       "name": "Species Identifier",
@@ -407,6 +415,7 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Lab-officer-the-Evolutionary-Biology-Laboratory-at-Singapore",
       "startDate": "2009-04",
       "endDate": "2010-11-13",
       "name": "Sequence Matrix",
