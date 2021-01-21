@@ -23,15 +23,21 @@ export default function PublicationsPage() {
       (a, b) => b.pubTime.toMillis() - a.pubTime.toMillis()
     );
 
+  const pubYears = [...new Set(publications.map(pub => pub.pubTime.year))].sort().reverse();
+
   return (
     <Layout title="Publications">
-      <ul>
-      {
-        publications.map((publication, index) => <li>{citations.renderCitation(publication)}
-          <div data-badge-details="right" data-badge-type="2" data-doi={publication.doi} data-hide-no-mentions="true" class="altmetric-embed"></div>
-        </li>)
+      { pubYears.map(pubYear => {
+        return <><h2>{pubYear}</h2>
+          <ul>
+          { publications.filter(pub => pub.pubTime.year === pubYear).map((publication, index) => {
+            return <li>{citations.renderCitation(publication)}
+              <div data-badge-details="right" data-badge-type="2" data-doi={publication.doi} data-hide-no-mentions="true" class="altmetric-embed"></div>
+            </li>
+          }) }
+          </ul></>
+        })
       }
-      </ul>
     </Layout>
   )
 }

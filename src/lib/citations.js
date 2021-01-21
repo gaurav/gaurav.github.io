@@ -15,6 +15,11 @@ export function renderAuthors(authors) {
         <strong>{author.name}</strong>
         {!is_last && ", "}
         </>;
+    } else if (!url) {
+      return <>
+        {author.name}
+        {!is_last && ", "}
+        </>;
     } else {
       return <>
         <a href={url}>{author.name}</a>

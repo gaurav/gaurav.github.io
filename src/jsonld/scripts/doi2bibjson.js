@@ -9,7 +9,8 @@ const mailTo = 'doi2bibjson@gaurav.ggvaidya.com';
 
 // Helper methods.
 function convertListToSingle(input) {
-  if (input.length === 0) return "";
+  if (input === undefined || input === null) return [];
+  else if (input.length === 0) return "";
   else if(input.length === 1) return input[0];
   else return input;
 }
@@ -17,14 +18,13 @@ function convertListToSingle(input) {
 function parseDate(date) {
   // In CrossRef, the dates are in three parts.
   const dates = date['date-parts'].map(d =>
-    `${d[0].toLocaleString('en', {minimumIntegerDigits:4,useGrouping:false})}-${d[1].toLocaleString('en', {minimumIntegerDigits:2})}-${d[2].toLocaleString('en', {minimumIntegerDigits:2})}`
+    `${(d[0] || 0).toLocaleString('en', {minimumIntegerDigits:4,useGrouping:false})}-${(d[1] || 0).toLocaleString('en', {minimumIntegerDigits:2})}-${(d[2] || 0).toLocaleString('en', {minimumIntegerDigits:2})}`
   );
   return convertListToSingle(dates);
 }
 
 function parseAuthors(authors) {
-  return authors.map(author => {
-
+  return (authors || []).map(author => {
     return {
       '@id': author.ORCID || '',
       'firstname': author.given || '',
