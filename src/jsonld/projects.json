@@ -14,7 +14,7 @@
       "role": "#Semantics-web-technologist-the-Renaissance-Computing-Institute-(RENCI)-at-Chapel-Hill-North-Carolina-USA",
       "startDate": "2019-10-21",
       "endDate": "2020-12-20",
-      "name": "CCDH",
+      "name": "Center for Cancer Data Harmonization (CCDH)",
       "description": "I work on the CCDH Tools and Data Quality team at RENCI. We aim to develop software tools that will allow the validation of biomedical data against the CRDC-H data model to store cancer-related biomedical data, to publish and transform the data model into different formats as needed, and to fulfil any other software development tasks that are needed to complete this project.",
       "products": [{
         "@id": "https://github.com/cancerDHC/csv2caDSR",

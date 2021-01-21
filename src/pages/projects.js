@@ -23,7 +23,7 @@ export default function TimelinePage() {
   refs.addEntitiesFromData(publicationsData);
   refs.addEntitiesFromData(citationsData);
   const filledProjectData = refs.fillReferences(projectsData);
-  console.log("Filled project data:", filledProjectData);
+  // console.log("Filled project data:", filledProjectData);
 
   const projects = filledProjectData.projects
     .map(src => {
