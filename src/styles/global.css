@@ -6,6 +6,14 @@ ul {
   line-height: 1;
 }
 
+ul.uncompressed {
+  line-height: normal;
+}
+
+ul.compressed {
+  line-height: 1 !important;
+}
+
 /* Highlight all spans with titles -- encourage people to hover! */
 span[title] {
   text-decoration-line: underline;
@@ -14,4 +22,13 @@ span[title] {
 span[title].no-title-dash {
   text-decoration-line: none;
   text-decoration-style: none;
+}
+
+/* Little section symbols to use to grab a local link */
+.section-link {
+  font-weight: lighter;
+  float: right;
+}
+.section-link:hover {
+  font-weight: bold;
 }

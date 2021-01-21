@@ -59,7 +59,9 @@ export function getShortTimeSpan(luxonTime) {
 }
 
 export function getShortDiffSpan(luxonTime1, luxonTime2) {
-  // Note: we assume that luxonTime2 is later than luxonTime1.
+  if (!luxonTime1) return <>{"until "}{getShortTimeSpan(luxonTime2)}</>
+  if (!luxonTime2) return <>{"from "}{getShortTimeSpan(luxonTime1)}</>
+  if (luxonTime1.toMillis() > luxonTime2.toMillis()) return getShortDiffSpan(luxonTime2, luxonTime1);
 
   const duration = luxonTime2.diff(luxonTime1, [
     'months',
