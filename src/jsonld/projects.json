@@ -310,7 +310,7 @@
           "description": "Provides an OpenRefine reconcilation service API for matching taxonomic names against several services.",
           "codeRepository": "https://github.com/gaurav/taxrefine",
           "technologies": [
-            "Python",
+            "Perl",
             "OpenRefine",
             "web APIs"
           ],
