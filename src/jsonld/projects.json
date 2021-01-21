@@ -218,6 +218,30 @@
     },
     {
       "@type": "schema:Project",
+      "role": "#Graduate-teaching-assistant-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "startDate": "2015-01",
+      "endDate": "2015-05",
+      "name": "Evolutionary Biology (EBIO 3080)",
+      "description": "I led three lab sections of twenty students each, teaching evolutionary biology through R-based statistics and modeling labs, measurements and phylogenetics."
+    },
+    {
+      "@type": "schema:Project",
+      "role": "#Graduate-teaching-assistant-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "startDate": "2015-08",
+      "endDate": "2015-12",
+      "name": "General Biology Labs 1 (EBIO 1230)",
+      "description": "I led three lab sections of eighteen students each, teaching the philosophical underpinings of science through hands-on experiments in cellular and molecular biology."
+    },
+    {
+      "@type": "schema:Project",
+      "role": "#Graduate-teaching-assistant-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "startDate": "2016-01",
+      "endDate": "2016-05",
+      "name": "General Biology Labs 2 (EBIO 1240)",
+      "description": "I led three lab sections of eighteen students each, taking my students on a tour of the tree of life while reinforcing concepts in evolutionary biology, ecology, anatomy and physiology."
+    },
+    {
+      "@type": "schema:Project",
       "role": "#PhD-in-Ecology-and-Evolutionary-Biology-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
       "startDate": "2011-08-22",
       "endDate": "2020-12-20",
@@ -366,7 +390,7 @@
         "startDate": "2008",
         "endDate": "2011",
         "name": "OCR Terminal",
-        "description": "A page-per-page service that allowed customers to carry out optical character recognition (OCR) on an image.",
+        "description": "OCR Terminal was an online optical character recognition (OCR) service: it read text from uploaded images and provided the image files in an editable format such as Microsoft Word, Adobe PDF or plain text. Between mid-2008 and 2011, tens of thousands of user accounts have been created and over 100,000 documents had been processed on this website. Apart from the website itself, the service featured a simple API which can be used to submit documents for processing programmatically.\nI was lead developer of OCR Terminal right from project inception. I have written all of OCR Terminal's underlying code, first as a Perl/CGI application, and later as a Perl/Catalyst application. I am particularly proud of designing the public API, which is used by our own desktop client, several in-house tools, and several clients of ours who use it for both bulk processing and as a backend for their own software.\nI also manage OCR Terminal's main server administrator, responsible for maintaining all the servers and backend components. I was able to learn about server monitoring with tools such as Munin. Since early 2009, OCR Terminal has been hosted on the Amazon EC2 processing cloud, giving me experience with setting up, bundling and managing EC2 instances.</p>",
         "technologies": [
           "Perl",
           "Amazon Web Services",

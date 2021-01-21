@@ -8,6 +8,7 @@ import slugify from "slugify"
 
 import * as citations from "./citations.js"
 import * as dates from "./dates.js"
+import * as utils from "./utils.js"
 import { renderTag } from "./tags.js"
 
 export function renderLicense(license) {
@@ -49,7 +50,7 @@ export function renderCreativeWork(work, parentSlug="creative-work", includeDeta
         <strong>Software</strong>: <a id={slug} href={url}>{name}</a>
         { includeDetails && <a class="section-link" href={"#" + slug}>&sect;</a> }
         { (startTime || endTime) && <>{" ("}{dates.getShortDiffSpan(startTime, endTime)}{")"}</> }
-        { work.description && <>{": "}{work.description}</> }
+        { work.description && <>{": "}{ utils.paragraphMultiline(work.description) }</> }
         { includeDetails && <ul class="compressed">
           { work.technologies &&
             <li>Technologies used: {" "}

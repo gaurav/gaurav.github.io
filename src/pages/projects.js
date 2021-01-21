@@ -7,6 +7,7 @@ import * as dates from "../lib/dates.js"
 import * as orgs from "../lib/organizations.js"
 import * as creativeworks from "../lib/creativeworks.js"
 import * as citations from "../lib/citations.js"
+import * as utils from "../lib/utils.js"
 import { ReferenceManager } from "../lib/entities.js"
 
 import Layout from "../components/layout"
@@ -58,7 +59,7 @@ export default function TimelinePage() {
               {" "}&bull;{" "}
               <strong>{ project.name }</strong>
             </div>
-            { project.description && <p>{ project.description }</p> }
+            { project.description && utils.paragraphMultiline(project.description) }
             <p><ul class="uncompressed">
               { project.products.map(product => <li>{creativeworks.renderCreativeWork(product, slug)}</li>) }
             </ul></p>
