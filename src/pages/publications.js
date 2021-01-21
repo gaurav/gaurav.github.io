@@ -31,9 +31,10 @@ export default function PublicationsPage() {
         return <><h2 id={pubYear}>{pubYear}</h2>
           <ul>
           { publications.filter(pub => pub.pubTime.year === pubYear).map((publication, index) => {
-            return <li id={slugify(publication.doi)}>{citations.renderCitation(publication)} <a class="section-link" href={'#' + slugify(publication.doi)}>&sect;</a>
+            return <li id={slugify(publication.doi)}>
+              <a class="section-link" href={'#' + slugify(publication.doi)}>&sect;</a>
+              {citations.renderCitation(publication)}
               <div data-badge-details="right" data-badge-type="2" data-doi={publication.doi} data-hide-no-mentions="true" class="altmetric-embed"></div>
-
             </li>
           }) }
           </ul></>
