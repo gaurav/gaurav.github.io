@@ -9,10 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import SEO from "./seo"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -33,7 +34,18 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        {props.goBackTo &&
+          <>
+            <small><a href={props.goBackTo}>{props.goBackText}</a></small>
+          </>
+        }
+        {props.title &&
+          <>
+            <h1>{props.title}</h1>
+            <SEO title={props.title} />
+          </>
+        }
+        <main>{props.children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

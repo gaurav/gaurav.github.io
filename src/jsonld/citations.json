@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "example": "http://example.org/",
+    "subjectOf": "schema:subjectOf",
+    "hasRole": "example:hasRole",
+    "name": "schema:name",
+    "location": "schema:location",
+    "authored": "example:authored",
+    "authors": {
+      "@id": "example:author",
+      "@container": "@list"
+    }
+  },
+  "@type": "schema:Person",
+  "@id": "https://www.ggvaidya.com/",
+  "cites": [
+  ]
+}

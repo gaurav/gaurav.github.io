@@ -10,6 +10,7 @@
   "@id": "https://www.ggvaidya.com/",
   "hasRole": [
     {
+      "@id": "#Semantics-web-technologist-the-Renaissance-Computing-Institute-(RENCI)-at-Chapel-Hill-North-Carolina-USA",
       "@type": "schema:RoleName",
       "startDate": "2019-10-21",
       "endDate": "2020-12-20",
@@ -28,9 +29,16 @@
         },
         "location": "Chapel Hill, North Carolina, USA"
       },
+      "products": [
+        {
+          "@id": "https://renci.org/staff/gaurav-vaidya/",
+          "name": "My page on the RENCI website"
+        }
+      ],
       "description": "I work on several projects to facilitate the re-use of biomedical data by other scientists, with a particular focus on using Semantic Web technologies to make scientific data findable, accessible, interoperable, and reusable. To achieve this, I work with tools that use standards such as RDF and JSON-LD to store and transmit semantically rich data, use ontologies written in OWL to reason over data, and use descriptions in SHACL and ShEx to validate data and document data models. Where existing tools are unavailable or inadequate, I write software tools to fill this need. My current projects focus on genetic, disease and other biomedical data, but I look forward to working with other kinds of data in the future. I work primarily in Scala to build these tools."
     },
     {
+      "@id": "#Postdoctoral-associate-the-Florida-Museum-of-Natural-History-at-Gainesville-Florida-USA",
       "@type": "schema:RoleName",
       "startDate": "2018-01-02",
       "endDate": "2019-10-11",
@@ -49,9 +57,41 @@
         },
         "location": "Gainesville, Florida, USA"
       },
-      "description": "I worked full-time as the lead software developer on the Phyloreferencing project. Our goal is to build an ontology of definitions for groups of related biological organisms, as well as the software and ontological infrastructure needed to create, edit, organize and test these definitions. We are building a demonstration website that will allow users to resolve these definitions on any evolutionary hypothesis. I built these tools using JavaScript in Node.js, Vue CLI, Java and Python."
+      "description": "I worked full-time as the lead software developer on the Phyloreferencing project. Our goal is to build an ontology of definitions for groups of related biological organisms, as well as the software and ontological infrastructure needed to create, edit, organize and test these definitions. We are building a demonstration website that will allow users to resolve these definitions on any evolutionary hypothesis. I built these tools using JavaScript in Node.js, Vue CLI, Java and Python.",
+      "products": [
+        { "@id": "https://doi.org/10.3897/BDJ.7.e33303" },
+        { "@id": "https://doi.org/10.3897/biss.4.59088" },
+        { "@id": "https://doi.org/10.3897/biss.2.25776" }
+      ]
     },
     {
+      "@id": "#PhD-in-Ecology-and-Evolutionary-Biology-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "@type": "schema:RoleName",
+      "startDate": "2011-08-22",
+      "endDate": "2017-12-20",
+      "roleName": "PhD in Ecology and Evolutionary Biology",
+      "description": "I went into graduate school with two goals: (1) to become a scientific software developer, and (2) to spend a period of time doing a focussed study on the informatics of taxonomic names. Taxonomic names are one of the oldest information management schemes in science, and have had to change dramatically over the last 285 years as biologists' understanding of species and evolution has changed. I wondered what we could learn about this old-yet-new information management system. Apart from the projects listed here that were directly relevant to my PhD, I also spent my time in graduate school learning about several other tools and techniques in a variety of other roles, listed elsewhere.",
+      "organization": {
+        "@id": "https://ebio.colorado.edu/",
+        "@type": "schema:Corporation",
+        "addThe": false,
+        "name": "Ecology and Evolutionary Biology (EBIO)",
+        "parentOrganization": {
+          "@id": "https://www.colorado.edu/",
+          "@type": "schema:Corporation",
+          "addThe": true,
+          "name": "University of Colorado Boulder",
+          "location": "Boulder, Colorado, USA"
+        },
+        "location": "Boulder, Colorado, USA"
+      },
+      "products": [
+        { "@id": "https://doi.org/10.1186/1471-2105-14-158" },
+        { "@id": "https://doi.org/10.3897/zookeys.209.3247" }
+      ]
+    },
+    {
+      "@id": "#Graduate-teaching-assistant-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
       "@type": "schema:RoleName",
       "startDate": "2015-01",
       "endDate": "2016-05",
@@ -73,11 +113,12 @@
       }
     },
     {
+      "@id": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
       "@type": "schema:RoleName",
       "startDate": "2011-08",
       "endDate": "2015-12",
       "roleName": "Graduate research assistant",
-      "description": "During the first four years of my PhD, I worked on the Map of Life and VertNet projects, where I developed a web application for synthesizing and managing vernacular names extracted from multiple sources footnote{Source code available at url{https://github.com/MapofLife/vernacular-names}}, a web API for efficiently searching a large database of taxonomic names footnote{Source code available at url{https://github.com/gaurav/taxrefine}}, and a Python tool to identify errors in species names (now deprecated).",
+      "description": "During the first four years of my PhD, I worked on the Map of Life and VertNet projects, where I developed a web application for synthesizing and managing vernacular names extracted from multiple sources, a web API for efficiently searching a large database of taxonomic names, and a Python tool to identify errors in species names (now deprecated).",
       "organization": {
         "@id": "https://ebio.colorado.edu/",
         "@type": "schema:Corporation",
@@ -94,6 +135,7 @@
       }
     },
     {
+      "@id": "#Student-developer-DBpedia-at-Boulder-Colorado-USA",
       "@type": "schema:RoleName",
       "startDate": "2014-05",
       "endDate": "2014-08",
@@ -117,21 +159,15 @@
           }
         },
         "location": "Boulder, Colorado, USA"
-      },
-      "relatedLink": [{
-        "@id": "https://www.google-melange.com/archive/gsoc/2014/orgs/dbpediaspotlight/projects/gaurav.html",
-        "label": "Project description on Google Summer of Code's website"
-      }, {
-        "@id": "https://commons.wikimedia.org/wiki/User:Gaurav/DBpedia",
-        "label": "Project report on the Wikimedia Commons"
-      }]
+      }
     },
     {
+      "@id": "#Graduate-research-assistant-the-National-Evolutionary-Synthesis-Center-(NESCent)-at-Durham-North-Carolina-USA",
       "@type": "schema:RoleName",
       "startDate": "2013-01",
       "endDate": "2013-05",
       "roleName": "Graduate research assistant",
-      "description": "This fellowship allowed me to work exclusively on my PhD for one semester with a mentor at the National Evolutionary Synthesis Center (NESCent) in Durham, North Carolina\footnote{Proposal available at url{}}. My mentor at NESCent, Hilmar Lapp, would later hire me to work on the Phyloreferencing project.",
+      "description": "This fellowship allowed me to work exclusively on my PhD for one semester with a mentor at the National Evolutionary Synthesis Center (NESCent) in Durham, North Carolina. My mentor at NESCent, Hilmar Lapp, would later hire me to work on the Phyloreferencing project.",
       "organization": {
         "@id": "https://www.nescent.org/",
         "@type": "schema:Corporation",
@@ -139,17 +175,18 @@
         "name": "National Evolutionary Synthesis Center (NESCent)",
         "location": "Durham, North Carolina, USA"
       },
-      "relatedLink": [{
+      "products": [{
         "@id": "https://www.nescent.org/science/awards_summary.php-id=374.html",
-        "label": "Description of my project on NESCent's website"
+        "name": "Description of my project on NESCent's website"
       }]
     },
     {
+      "@id": "#Software-architect-Paper-Terminal-Pte-Ltd-at-Singapore",
       "@type": "schema:RoleName",
       "startDate": "2007-11-01",
       "endDate": "2011-02-28",
       "roleName": "Software architect",
-      "description": "I was the primary software developer, responsible for developing new web applications from prototypes to final deployment, including {it OCR~Terminal}, my company's flagship product. I also managed our computer systems on both on-site and Amazon EC2 cloud plaform across multiple operating systems.",
+      "description": "I was the primary software developer, responsible for developing new web applications from prototypes to final deployment, including OCR Terminal, my company's flagship product. I also managed our computer systems on both on-site and Amazon EC2 cloud plaform across multiple operating systems.",
       "organization": {
         "@id": "http://www.paperterminal.org/",
         "@type": "schema:Corporation",
@@ -157,12 +194,13 @@
         "name": "Paper Terminal Pte Ltd",
         "location": "Singapore"
       },
-      "relatedLink": [{
+      "products": [{
         "@id": "https://www.abbyy.com/customer-stories/abbyy-recognition-server-proves-to-be-credible-infrastructure-for-online-services-ocr-terminal/",
-        "label": "Description of OCR Terminal on ABBYY's website"
+        "name": "Description of OCR Terminal on ABBYY's website"
       }]
     },
     {
+      "@id": "#Lab-officer-the-Evolutionary-Biology-Laboratory-at-Singapore",
       "@type": "schema:RoleName",
       "startDate": "2006-08-22",
       "endDate": "2007-06-22",
@@ -182,10 +220,37 @@
           "location": "Singapore"
         }
       },
-      "relatedLink": [{
+      "products": [{
+        "@id": "https://doi.org/10.1016/j.ympev.2011.11.034"
+      }, {
         "@id": "https://web.archive.org/web/20080521174221/http://evolution.science.nus.edu.sg/people/gaurav/",
-        "label": "My description on our lab website"
+        "name": "My description on our lab website"
       }]
+    },
+    {
+      "@id": "#Bachelor-of-Science-(with-Merit)-in-Life-Sciences-with-minors-in-Computational-Science-and-Economics-Department-of-Biological-Sciences-at-Singapore",
+      "@type": "schema:RoleName",
+      "startDate": "2002-07",
+      "endDate": "2006-06-30",
+      "roleName": "Bachelor of Science (with Merit) in Life Sciences with minors in Computational Science and Economics",
+      "description": "",
+      "organization": {
+        "@id": "https://www.dbs.nus.edu.sg/",
+        "@type": "schema:Corporation",
+        "addThe": false,
+        "name": "Department of Biological Sciences",
+        "location": "Singapore",
+        "parentOrganization": {
+          "@id": "http://www.nus.edu.sg/",
+          "@type": "schema:Corporation",
+          "addThe": true,
+          "name": "National University of Singapore",
+          "location": "Singapore"
+        }
+      },
+      "products": [
+        { "@id": "https://doi.org/10.1163/ej.9789004148970.I-459.55" }
+      ]
     }
   ]
 }
