@@ -65,6 +65,9 @@ export default function TimelinePage() {
 
   return (
     <Layout title="Timeline">
+      <small>(<a href="#" onclick="$('.roleProducts').slideToggle(1000)">Toggle showing products</a>)</small>
+      <p></p>
+
       {
         roles.map((role, index) => {
           const slug = slugify(role.roleName + '-' + orgs.getOrganizationNamePlaceString(role.organization));
@@ -93,7 +96,7 @@ export default function TimelinePage() {
               }
             </div>
             { role.description && <p>{ role.description }</p> }
-            <p><ul class="uncompressed">
+            <p><ul class="uncompressed roleProducts">
               { (role.relatedLink || []).map(link => {
                 return <li>Link: <a href={link['@id']}>{link.label}</a>{ link.description && <>{": "}{link.description}</>}</li>
               })}
