@@ -433,14 +433,14 @@
     {
       "@type": "schema:Project",
       "role": "#Lab-officer-the-Evolutionary-Biology-Laboratory-at-Singapore",
-      "startDate": "2009-04",
+      "startDate": "2006-08",
       "endDate": "2010-11-13",
       "name": "SequenceMatrix",
       "description": "Genetic analysis softwares at this time were designed to compare a single genetic or protein sequence between different taxa to perform comparative analyses. In the Evolutionary Biology lab, we would often perform multi-gene analyses, requiring aligned genetic sequences to be concatenated together. Modifying such datasets after concatenation could be problematic, especially if one of the constituent sequences turned out to be contamination. Sequence Matrix was intended to simplify the process of contatenation such that preserved gene boundaries could be unconcatenated if necessary, and included some tools for detecting and removing contamination from multi-gene, multi-taxon datasets.",
       "products": [{
         "@id": "http://gaurav.github.io/taxondna/",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2009-04-10",
+        "startDate": "2006-08-28",
         "endDate": "2015-06-22",
         "name": "SequenceMatrix",
         "description": "Sequence Matrix facilitates the assembly of phylogenetic data matrices with multiple genes. Files for individual genes are dragged and dropped into a window and the sequences are concatenated. A table provides an overview over how much sequence information is available for the different genes and species. The user can request Sequence Matrix generate a wide variety of character and taxon sets (e.g. a taxon set with all species that have more than a specified number of genes or basepairs). The concatenated sequences can be exported in NEXUS or TNT format. Individual sequences can be excluded from being exported.",
