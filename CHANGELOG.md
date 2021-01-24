@@ -4,6 +4,7 @@ All notable changes to this website will be documented in this file.
 The format is based on [Keep a Changelog] and this project adheres to [Semantic Versioning].
 
 ## [Unreleased]
+- Fixed SequenceMatrix dates.
 
 ## [0.2] - 2021-01-21
 - Basic initial release of a Gatsby version of this website.
