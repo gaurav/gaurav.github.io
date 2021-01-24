@@ -344,7 +344,9 @@
         "codeRepository": "https://github.com/dbpedia/extraction-framework/commits?author=gaurav",
         "technologies": [
           "Scala",
-          "RDF"
+          "RDF",
+          "MediaWiki",
+          "Wikimedia Commons"
         ],
         "features": [
           "Added support for extracting metadata regarding media files in the Wikimedia Commons, including links to the raw files themselves.",
@@ -375,6 +377,36 @@
         "endDate": "2015-04-30",
         "name": "Art of Life Schema",
         "description": "I worked with my PhD advisor and some librarians at the BHL to develop a data schema for annotating biological illustrations in a way that would make them useful for biodiversity researchers."
+      }]
+    },
+    {
+      "@type": "schema:Project",
+      "name": "The Junius Henderson Field Note Project",
+      "role": "#Graduate-research-assistant-the-University-of-Colorado-Museum-of-Natural-History-at-Boulder-Colorado-USA",
+      "description": "This project began as an idea that my collaborators (Andrea Thomer and Rob Guralnick) discussed regarding the annotation of historical field notebooks to extract the biodiversity data found in them. I suggested that we use Wikisource, a part of Wikipedia, to crowdsource the annotation process and to develop the software tools needed to carry out such annotations of Wikisource content. We published our findings as a Darwin Core Archive and in the journal ZooKeys in 2012.",
+      "startDate": "2011-11",
+      "endDate": "2012-07-20",
+      "products": [{
+        "@id": "https://doi.org/10.3897/zookeys.209.3247"
+      }, {
+        "@id": "https://github.com/gaurav/henderson",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2012-01-19",
+        "endDate": "2012-03-31",
+        "name": "The Junius Henderson Field Note Project source code",
+        "description": "I wrote a series of scripts for extracting biodiversity data annotated on WikiSource into the Darwin Core biodiversity data sharing format.",
+        "codeRepository": "https://github.com/gaurav/henderson",
+        "technologies": [
+          "Perl",
+          "Wikisource",
+          "MediaWiki",
+          "Darwin Core"
+        ],
+        "features": [
+          "Download annotated text as XML from WikiSource via WikiSources' APIs.",
+          "Extract MediaWiki templates that correspond to biodiversity observations and record the information as Darwin Core.",
+          "Calculate summary statistics on each notebook, including information on the editors who worked on the most number of files."
+        ]
       }]
     },
     {
