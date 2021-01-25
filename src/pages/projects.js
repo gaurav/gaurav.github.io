@@ -59,10 +59,10 @@ export default function TimelinePage() {
               {" "}&bull;{" "}
               <strong>{ project.name }</strong>
             </div>
-            { project.description && utils.paragraphMultiline(project.description) }
-            <p><ul class="uncompressed">
+            { project.description && utils.paragraphMultiline(project.description, true) }
+            <ul class="uncompressed">
               { project.products.map(product => <li>{creativeworks.renderCreativeWork(product, slug)}</li>) }
-            </ul></p>
+            </ul>
             <hr class={css.projectEndHR} />
           </div>);
         })
