@@ -251,7 +251,7 @@
         "@id": "https://github.com/gaurav/scinames",
         "@type": "schema:SoftwareSourceCode",
         "startDate": "2019-05-26",
-        "endDate": "2017-04-30",
+        "endDate": "2017-01-01",
         "name": "SciNames",
         "description": "A graphical user interface (GUI) for processing changes among taxonomic checklists. SciNames imports multiple taxonomic checklists into a single XML file, and then generates lists of changes between those checklists. Users can then use the GUI to annotate these changes, recording why each change had occurred and what sort of change it was. SciNames can then calculate some statistics on the changes.",
         "codeRepository": "https://github.com/gaurav/scinames",
@@ -264,6 +264,9 @@
           "Convert taxonomic checklists into XML representations that store both multiple taxonomic checklists as well as annotated changes between them.",
           "Provides a graphical user interface (GUI) showing changes between checklists and allowing those changes to be modified or annotated.",
           "Calculates measures of stability among a series of checklists over time and exports data in formats amenable for rendering as graphs."
+        ],
+        "seeAlso": [
+          "https://github.com/gaurav/scinames-prev/"
         ]
       }, {
         "@id": "https://doi.org/10.31237/osf.io/n2kh5"
@@ -271,6 +274,29 @@
         "@id": "https://doi.org/10.1371/journal.pone.0195736"
       }, {
         "@id": "https://doi.org/10.3897/zookeys.420.7089"
+      }]
+    }, {
+      "@type": "schema:Project",
+      "role": "#PhD-in-Ecology-and-Evolutionary-Biology-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "startDate": "2011",
+      "endDate": "2017",
+      "name": "Small projects during my PhD",
+      "description": "Some small software projects I worked on during my PhD.",
+      "products": [{
+        "@id": "https://github.com/gaurav/biburi",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2013-10-01",
+        "endDate": "2014-01-27",
+        "name": "BibURI",
+        "description": "A Ruby Gem to extract BibTeX information from a number of bibliographic resources, such as DOIs and COinS webpages. I wrote this at the first TaxonWorks hackathon.",
+        "technologies": [
+          "Ruby",
+          "BibTeX"
+        ],
+        "features": [
+          "Extract a BibTeX entry given a DOI.",
+          "Extract a BibTeX entry given a webpage with COinS."
+        ]
       }]
     },
     {
