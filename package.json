@@ -2,7 +2,7 @@
   "name": "gaurav.github.io",
   "private": true,
   "description": "Gaurav Vaidya's homepage",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Gaurav Vaidya <gaurav@ggvaidya.com>",
   "dependencies": {
     "gatsby": "^2.30.3",
