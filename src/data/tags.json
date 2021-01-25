@@ -35,6 +35,15 @@
       "https://en.wikipedia.org/wiki/Perl"
     ]
   },
+  "Ruby": {
+    "id": "Ruby",
+    "@id": "https://www.ruby-lang.org/",
+    "name": "Ruby programming language",
+    "description": "A dynamic, object-oriented programming language with an elegant syntax.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+    ]
+  },
   "Java virtual machine": {
     "id": "Java virtual machine",
     "@id": "https://en.wikipedia.org/wiki/Java_virtual_machine",
@@ -252,6 +261,15 @@
     ],
     "seeAlso": [ "JavaScript", "NPM" ]
   },
+  "BibTeX": {
+    "id": "BibTeX",
+    "@id": "http://tug.org/bibtex/",
+    "name": "BibTeX",
+    "description": "A popular format for storing bibliographies.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/BibTeX"
+    ]
+  },
   "Software testing": {
     "id": "Software testing",
     "@id": "https://en.wikipedia.org/wiki/Software_testing",
@@ -289,6 +307,55 @@
     "description": "A widely-used cloud infrastructure provider.",
     "urls": [
       "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+    ]
+  },
+  "Wikisource": {
+    "id": "Wikisource",
+    "@id": "http://wikisource.org",
+    "name": "Wikisource",
+    "description": "A part of Wikipedia, the free encyclopedia, that focuses on uploading and transcribing documents.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Wikisource"
+    ],
+    "seeAlso": [ "Wikipedia" ]
+  },
+  "Wikipedia": {
+    "id": "Wikipedia",
+    "@id": "http://www.wikipedia.org/",
+    "name": "Wikipedia",
+    "description": "The Free Encyclopedia, which was created by volunteers working under open-source licenses. The entire encyclopedia can be duplicated and shared as long as it is credited correctly. I have been a contributor since 2002.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/User:Gaurav"
+    ]
+  },
+  "Wikimedia Commons": {
+    "id": "Wikimedia Commons",
+    "@id": "http://commons.wikimedia.org/",
+    "name": "Wikimedia Commons",
+    "description": "The media repository behind Wikipedia, the free encyclopedia. It contains over 68 million media files licensed under open source licenses and meticulously categorized to promote their use in the over 300 language Wikipedias.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/User:Gaurav"
+    ],
+    "seeAlso": [ "Wikipedia" ]
+  },
+  "MediaWiki": {
+    "id": "MediaWiki",
+    "@id": "http://www.mediawiki.org",
+    "name": "MediaWiki",
+    "description": "The software underlying Wikipedia, the free encyclopedia. Includes APIs for accessing content, page histories and author information.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Wikisource"
+    ],
+    "seeAlso": [ "Wikipedia", "web APIs" ]
+  },
+  "Darwin Core": {
+    "id": "Darwin Core",
+    "@id": "https://dwc.tdwg.org/",
+    "name": "Darwin Core",
+    "description": "A data format used for sharing and publishing biodiversity data.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Darwin_Core",
+      "https://www.gbif.org/darwin-core"
     ]
   }
 }
