@@ -35,6 +35,15 @@
       "https://en.wikipedia.org/wiki/Perl"
     ]
   },
+  "Ruby": {
+    "id": "Ruby",
+    "@id": "https://www.ruby-lang.org/",
+    "name": "Ruby programming language",
+    "description": "A dynamic, object-oriented programming language with an elegant syntax.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+    ]
+  },
   "Java virtual machine": {
     "id": "Java virtual machine",
     "@id": "https://en.wikipedia.org/wiki/Java_virtual_machine",
@@ -251,6 +260,15 @@
       "https://en.wikipedia.org/wiki/Vue.js"
     ],
     "seeAlso": [ "JavaScript", "NPM" ]
+  },
+  "BibTeX": {
+    "id": "BibTeX",
+    "@id": "http://tug.org/bibtex/",
+    "name": "BibTeX",
+    "description": "A popular format for storing bibliographies.",
+    "urls": [
+      "https://en.wikipedia.org/wiki/BibTeX"
+    ]
   },
   "Software testing": {
     "id": "Software testing",

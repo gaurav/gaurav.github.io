@@ -251,7 +251,7 @@
         "@id": "https://github.com/gaurav/scinames",
         "@type": "schema:SoftwareSourceCode",
         "startDate": "2019-05-26",
-        "endDate": "2017-04-30",
+        "endDate": "2017-01-01",
         "name": "SciNames",
         "description": "A graphical user interface (GUI) for processing changes among taxonomic checklists. SciNames imports multiple taxonomic checklists into a single XML file, and then generates lists of changes between those checklists. Users can then use the GUI to annotate these changes, recording why each change had occurred and what sort of change it was. SciNames can then calculate some statistics on the changes.",
         "codeRepository": "https://github.com/gaurav/scinames",
@@ -264,6 +264,9 @@
           "Convert taxonomic checklists into XML representations that store both multiple taxonomic checklists as well as annotated changes between them.",
           "Provides a graphical user interface (GUI) showing changes between checklists and allowing those changes to be modified or annotated.",
           "Calculates measures of stability among a series of checklists over time and exports data in formats amenable for rendering as graphs."
+        ],
+        "seeAlso": [
+          "https://github.com/gaurav/scinames-prev/"
         ]
       }, {
         "@id": "https://doi.org/10.31237/osf.io/n2kh5"
@@ -271,6 +274,29 @@
         "@id": "https://doi.org/10.1371/journal.pone.0195736"
       }, {
         "@id": "https://doi.org/10.3897/zookeys.420.7089"
+      }]
+    }, {
+      "@type": "schema:Project",
+      "role": "#PhD-in-Ecology-and-Evolutionary-Biology-Ecology-and-Evolutionary-Biology-(EBIO)-at-Boulder-Colorado-USA",
+      "startDate": "2011",
+      "endDate": "2017",
+      "name": "Small projects during my PhD",
+      "description": "Some small software projects I worked on during my PhD.",
+      "products": [{
+        "@id": "https://github.com/gaurav/biburi",
+        "@type": "schema:SoftwareSourceCode",
+        "startDate": "2013-10-01",
+        "endDate": "2014-01-27",
+        "name": "BibURI",
+        "description": "A Ruby Gem to extract BibTeX information from a number of bibliographic resources, such as DOIs and COinS webpages. I wrote this at the first TaxonWorks hackathon.",
+        "technologies": [
+          "Ruby",
+          "BibTeX"
+        ],
+        "features": [
+          "Extract a BibTeX entry given a DOI.",
+          "Extract a BibTeX entry given a webpage with COinS."
+        ]
       }]
     },
     {
@@ -387,9 +413,10 @@
       "products": [{
         "@id": "http://www.ocrterminal.com/",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2008",
-        "endDate": "2011",
+        "startDate": "2008-02-01",
+        "endDate": "2010-12-24",
         "name": "OCR Terminal",
+        "codeRepository": "https://github.com/gaurav/ocrterminal",
         "description": "OCR Terminal was an online optical character recognition (OCR) service: it read text from uploaded images and provided the image files in an editable format such as Microsoft Word, Adobe PDF or plain text. Between mid-2008 and 2011, tens of thousands of user accounts have been created and over 100,000 documents had been processed on this website. Apart from the website itself, the service featured a simple API which can be used to submit documents for processing programmatically.\nI was lead developer of OCR Terminal right from project inception. I have written all of OCR Terminal's underlying code, first as a Perl/CGI application, and later as a Perl/Catalyst application. I am particularly proud of designing the public API, which is used by our own desktop client, several in-house tools, and several clients of ours who use it for both bulk processing and as a backend for their own software.\nI also manage OCR Terminal's main server administrator, responsible for maintaining all the servers and backend components. I was able to learn about server monitoring with tools such as Munin. Since early 2009, OCR Terminal has been hosted on the Amazon EC2 processing cloud, giving me experience with setting up, bundling and managing EC2 instances.</p>",
         "technologies": [
           "Perl",
