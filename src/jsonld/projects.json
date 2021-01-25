@@ -413,9 +413,10 @@
       "products": [{
         "@id": "http://www.ocrterminal.com/",
         "@type": "schema:SoftwareSourceCode",
-        "startDate": "2008",
-        "endDate": "2011",
+        "startDate": "2008-02-01",
+        "endDate": "2010-12-24",
         "name": "OCR Terminal",
+        "codeRepository": "https://github.com/gaurav/ocrterminal",
         "description": "OCR Terminal was an online optical character recognition (OCR) service: it read text from uploaded images and provided the image files in an editable format such as Microsoft Word, Adobe PDF or plain text. Between mid-2008 and 2011, tens of thousands of user accounts have been created and over 100,000 documents had been processed on this website. Apart from the website itself, the service featured a simple API which can be used to submit documents for processing programmatically.\nI was lead developer of OCR Terminal right from project inception. I have written all of OCR Terminal's underlying code, first as a Perl/CGI application, and later as a Perl/Catalyst application. I am particularly proud of designing the public API, which is used by our own desktop client, several in-house tools, and several clients of ours who use it for both bulk processing and as a backend for their own software.\nI also manage OCR Terminal's main server administrator, responsible for maintaining all the servers and backend components. I was able to learn about server monitoring with tools such as Munin. Since early 2009, OCR Terminal has been hosted on the Amazon EC2 processing cloud, giving me experience with setting up, bundling and managing EC2 instances.</p>",
         "technologies": [
           "Perl",
