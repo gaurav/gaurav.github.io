@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog] and this project adheres to [Semantic 
 ## [Unreleased]
 - Fixed SequenceMatrix dates.
 - Added the Junius Henderson Field Notebook Project.
+- Added BibURI and OCR Terminal.
 
 ## [0.2] - 2021-01-21
 - Basic initial release of a Gatsby version of this website.
