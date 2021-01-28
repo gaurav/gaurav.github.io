@@ -53,7 +53,7 @@ const Layout = (props) => {
           <small>
           <a href="https://github.com/gaurav/gaurav.github.io">Source code available</a> under the GPL v3.0 open source license.
           {` `}
-          <a href="https://github.com/gaurav/gaurav.github.io/tree/develop/src/jsonld">Raw data available</a> as RDF in JSON-LD and Turtle.
+          <a href="https://github.com/gaurav/gaurav.github.io/tree/develop/jsonld">Raw data available</a> as RDF in JSON-LD and Turtle.
           </small>
         </footer>
       </div>
