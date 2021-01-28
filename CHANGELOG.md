@@ -4,6 +4,7 @@ All notable changes to this website will be documented in this file.
 The format is based on [Keep a Changelog] and this project adheres to [Semantic Versioning].
 
 ## [Unreleased]
+- Added links to Github repo and data files.
 
 ## [0.3] - 2021-01-25
 - Fixed SequenceMatrix dates.

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import indexStyles from "./index.module.css"
 
-import websites from "../jsonld/websites.json"
+import websites from "../../jsonld/websites.json"
 
 export default function IndexPage() {
   return (

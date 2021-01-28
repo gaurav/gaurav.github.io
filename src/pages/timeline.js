@@ -15,10 +15,10 @@ import SEO from "../components/seo"
 
 import css from "./timeline.module.css"
 
-import timelineData from "../jsonld/timeline.json"
-import projectsData from "../jsonld/projects.json"
-import publicationsData from "../jsonld/publications.json"
-import citationsData from "../jsonld/citations.json"
+import timelineData from "../../jsonld/timeline.json"
+import projectsData from "../../jsonld/projects.json"
+import publicationsData from "../../jsonld/publications.json"
+import citationsData from "../../jsonld/citations.json"
 
 export default function TimelinePage() {
   const refs = new ReferenceManager();

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import { renderTag } from "../lib/tags.js"
 
-import tagsData from "../data/tags.json"
+import tagsData from "../../data/tags.json"
 
 export default function TagsPage() {
   return (
@@ -18,7 +18,7 @@ export default function TagsPage() {
       <ul>
         { Object.keys(tagsData).sort().map(tagId => {
           const tagInfo = tagsData[tagId];
-          return <li><Link to={'/tag/' + tagId}>{tagId}{(tagInfo.name !== tagId) && <>{" ("}{tagInfo.name}{")"}</>}</Link>
+          return <li><Link to={'/tag/' + tagId}>{tagInfo.name}{(tagInfo.name !== tagId) && <>{" ("}{tagId}{")"}</>}</Link>
             {tagInfo.description && <>{": "}{tagInfo.description}</>}
             </li>
         }) }
