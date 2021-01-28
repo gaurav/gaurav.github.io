@@ -18,7 +18,7 @@ export default function TagsPage() {
       <ul>
         { Object.keys(tagsData).sort().map(tagId => {
           const tagInfo = tagsData[tagId];
-          return <li><Link to={'/tag/' + tagId}>{tagId}{(tagInfo.name !== tagId) && <>{" ("}{tagInfo.name}{")"}</>}</Link>
+          return <li><Link to={'/tag/' + tagId}>{tagInfo.name}{(tagInfo.name !== tagId) && <>{" ("}{tagId}{")"}</>}</Link>
             {tagInfo.description && <>{": "}{tagInfo.description}</>}
             </li>
         }) }
