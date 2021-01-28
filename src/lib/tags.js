@@ -5,7 +5,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import tagsData from "../data/tags.json"
+import tagsData from "../../data/tags.json"
 
 export function getTagInfo(tagId) {
   return tagsData.get(tagId);

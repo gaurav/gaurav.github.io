@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import { renderTag } from "../lib/tags.js"
 
-import tagsData from "../data/tags.json"
+import tagsData from "../../data/tags.json"
 
 export default function TagsPage() {
   return (

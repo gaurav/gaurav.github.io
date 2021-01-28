@@ -10,7 +10,7 @@ import slugify from 'slugify'
 
 import css from "./timeline.module.css"
 
-import publicationsData from "../jsonld/publications.json"
+import publicationsData from "../../jsonld/publications.json"
 
 export default function PublicationsPage() {
   const publications = publicationsData.authored

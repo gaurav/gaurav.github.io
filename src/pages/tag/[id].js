@@ -7,7 +7,7 @@ import SEO from "../../components/seo"
 
 import * as tags from "../../lib/tags.js"
 
-import tagData from "../../data/tags.json"
+import tagData from "../../../data/tags.json"
 
 export default function Component(props) {
   const tagId = props.params.id;

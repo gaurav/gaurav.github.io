@@ -47,9 +47,14 @@ const Layout = (props) => {
         }
         <main>{props.children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Gaurav Vaidya. Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>.<br />
+          <small>
+          <a href="https://github.com/gaurav/gaurav.github.io">Source code available</a> under the GPL v3.0 open source license.
+          {` `}
+          <a href="https://github.com/gaurav/gaurav.github.io/tree/develop/src/jsonld">Raw data available</a> as RDF in JSON-LD and Turtle.
+          </small>
         </footer>
       </div>
     </>
