@@ -392,12 +392,6 @@
       "authors": [
         {
           "@id": "",
-          "firstname": "David",
-          "lastname": "Bloom",
-          "name": "David Bloom"
-        },
-        {
-          "@id": "",
           "firstname": "Andrea",
           "lastname": "Thomer",
           "name": "Andrea Thomer"
@@ -413,6 +407,12 @@
           "firstname": "Robert",
           "lastname": "Guralnick",
           "name": "Robert Guralnick"
+        },
+        {
+          "@id": "",
+          "firstname": "David",
+          "lastname": "Bloom",
+          "name": "David Bloom"
         },
         {
           "@id": "",
@@ -472,7 +472,7 @@
       ],
       "journal": {
         "name": "The Semantic Web - ISWC 2015: Lecture Notes in Computer Science",
-        "volume": "",
+        "volume": "9367",
         "issue": "",
         "pages": "281-289",
         "issn": [
