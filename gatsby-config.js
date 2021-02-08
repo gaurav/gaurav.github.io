@@ -21,6 +21,14 @@ module.exports = {
         name: `data`,
       },
     },
+    `gatsby-transformer-rdf`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/jsonld/turtle`,
+        name: `turtle`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
