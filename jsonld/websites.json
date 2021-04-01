@@ -90,6 +90,15 @@
                 "logo": "@src:images/logos/publons.png"
             }
         },
+	{
+	    "@type": "schema:WebSite",
+	    "@id": "https://www.linkedin.com/in/ggvaidya/",
+	    "label": "Gaurav Vaidya",
+	    "publisher": {
+		"@type": "schema:Organization",
+		"name": "LinkedIn"
+	    }
+	},
         {
             "@type": "schema:WebSite",
             "@id": "http://tumblr.ggvaidya.com/",
