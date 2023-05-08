@@ -21,14 +21,14 @@
           }
         },
         {
-          "@type": "schema:WebSite",
-          "@id": "http://www.twitter.com/mrvaidya",
-          "label": "@mrvaidya",
-          "publisher": {
-              "@type": "schema:Organization",
-              "name": "Twitter",
-              "logo": "@src:images/logos/twitter.png"
-          }
+            "@type": "schema:WebSite",
+            "@id": "https://hachyderm.io/@gaurav",
+            "label": "@gaurav@hachyderm.io",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Hachyderm (Fediverse)",
+                "logo": "@src:images/logos/hachyderm.png"
+            }
         },
         {
             "@type": "schema:WebSite",
@@ -137,6 +137,16 @@
                 "@type": "schema:Organization",
                 "name": "Foursquare",
                 "logo": "@src:images/logos/foursquare.png"
+            }
+        },
+        {
+            "@type": "schema:WebSite",
+            "@id": "http://www.twitter.com/mrvaidya",
+            "label": "@mrvaidya",
+            "publisher": {
+                "@type": "schema:Organization",
+                "name": "Twitter (deprecated)",
+                "logo": "@src:images/logos/twitter.png"
             }
         },
         {
