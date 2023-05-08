@@ -28,7 +28,7 @@ export default function IndexPage() {
         {
           websites.sameAs.map((website, index) => {
             return (
-              <li><a href={ website['@id'] }>{ website.label }</a> on { website.publisher.name }</li>
+              <li><a rel="me" href={ website['@id'] }>{ website.label }</a> on { website.publisher.name }</li>
             );
           })
         }
