@@ -5,7 +5,7 @@
   "version": "0.3.0",
   "author": "Gaurav Vaidya <gaurav@ggvaidya.com>",
   "dependencies": {
-    "gatsby": "^2.30.3",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-manifest": "^2.4.18",
     "gatsby-plugin-offline": "^3.2.18",
