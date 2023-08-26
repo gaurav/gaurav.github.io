@@ -1,12 +1,12 @@
-title = 'Docura'
-baseURL = 'https://docura.github.io/'
+title = "Gaurav Vaidya's website"
+baseURL = "https://www.ggvaidya.com/"
 
 defaultContentLanguage = 'en'
 languageCode = 'en-us'
 
 googleAnalytics = ''
 
-enableGitInfo = true
+enableGitInfo = false
 
 markup.highlight.noClasses = false
 theme = 'docura'
