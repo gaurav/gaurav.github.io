@@ -1,0 +1,14 @@
+{
+  "short_name": "Gaurav Vaidya's Website",
+  "name": "Gaurav Vaidya's Website",
+  "description": "Gaurav Vaidya's website on the world wide web.",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/avatar-round.png",
+      "type": "image/png",
+      "sizes": "1155x1155"
+    }
+  ]
+}
