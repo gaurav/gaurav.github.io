@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d09ced8-582e-47a1-a63e-f0b2836dce01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tags.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/citations.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/convert2ttl.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/projects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/publications.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/scripts/doi2bibjson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/turtle/citations.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/turtle/projects.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/turtle/timeline.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/turtle/websites.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld/websites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/avatar-round.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/avatar-round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/avatar.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/avatar.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logos/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/citations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/creativeworks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/dates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/entities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/organizations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/publications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tag/[id].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/timeline.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/public/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/avatar-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/avatar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/depression.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/depression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/guestbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/guestbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/guestbook.php_file=guestbook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/guestbook.php_file=guestbook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/images/avatar_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/images/avatar_small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/jokes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/jokes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/jokes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/jokes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/jokes/index.php_view=rotk1.fny" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/jokes/index.php_view=rotk1.fny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/jokes/index.php_view=write-in-c.fny" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/jokes/index.php_view=write-in-c.fny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/jokes/random.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/jokes/random.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=aarti.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=aarti.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=beatles.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=beatles.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=bio-interesting.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=bio-interesting.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=biod.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=biod.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=bioinfo.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=bioinfo.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=bioweapons.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=bioweapons.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=blogs.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=blogs.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=cheeringup.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=cheeringup.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=depression.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=depression.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=ecocomp.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=ecocomp.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=family.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=family.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=flies.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=flies.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=interesting.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=interesting.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=java.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=java.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=linux.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=linux.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=molbio.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=molbio.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=mustsee.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=mustsee.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=personal.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=personal.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=proggy.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=proggy.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=rsi.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=rsi.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=scripts.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=scripts.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=sysad.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=sysad.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=test.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=test.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=the_end.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=the_end.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=tolkein.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=tolkein.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=travel.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=travel.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/links/index.php_view=zoology.lnd" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/links/index.php_view=zoology.lnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/330418.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/330418.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/ilovemyeditor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/ilovemyeditor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/linux_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/linux_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/userfriendly.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/userfriendly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/linux/windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/linux/windows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/lyrics/lemon_tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/lyrics/lemon_tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/programming/haiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/programming/haiku.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/programming/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/bad_days.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/bad_days.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/cats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/death.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/death.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/dreams.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/dreams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/friendship.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/friendship.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/funny.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/funny.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/goals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/goals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/hmmm.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/hmmm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/isolation.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/isolation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/jealousy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/jealousy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/life.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/life.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/love.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/mistakes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/mistakes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/perception.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/perception.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/programming.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/programming.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/relationships.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/relationships.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/romance.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/romance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/saying_goodbye.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/saying_goodbye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/who_am_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/who_am_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/quotes/worries.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/quotes/worries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/report_old.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/report_old.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/tvshows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/tvshows/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/annies_song.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/annies_song.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/beauty_and_the_beast.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/beauty_and_the_beast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/crippled_inside.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/crippled_inside.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/dates.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/dates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/every_breath_you_take.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/every_breath_you_take.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/for_no_one.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/for_no_one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/free_as_a_bird.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/free_as_a_bird.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/hope.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/hope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/jealous_guy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/jealous_guy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/kiss_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/kiss_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/loverly.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/loverly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/make_me_a_channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/make_me_a_channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/mother.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/mother.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/my_favorite_things.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/my_favorite_things.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/my_favourite_things.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/my_favourite_things.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/scrambled.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/scrambled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/sea_fever.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/sea_fever.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/something_to_talk_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/something_to_talk_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/stopping_by_the_woods_on_a_snowy_evening.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/stopping_by_the_woods_on_a_snowy_evening.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/tequila_sunrise.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/tequila_sunrise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/the_final_frontier.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/the_final_frontier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/the_road_not_taken.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/the_road_not_taken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/this_boy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/this_boy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/where_the_mind_is_without_fear.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/where_the_mind_is_without_fear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/verse/youve_got_to_hide_your_love_away.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/verse/youve_got_to_hide_your_love_away.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/whoami.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/whoami.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/ape.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/ape.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/butterfly.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/butterfly.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/child.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/child.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/owleyes.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/owleyes.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/tiger.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/tiger.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/turtlehatching.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/turtlehatching.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sps.nus.edu.sg/vaidyagi/wwfpassport/whaletail.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/sps.nus.edu.sg/vaidyagi/wwfpassport/whaletail.gif" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UXZjlq5BbkuaGJsb6dFeSir4l6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "replace-with-astro",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gaurav/Development/gaurav.github.io/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="gaurav.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gaurav.github.io" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gaurav.github.io" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="gaurav.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="gaurav.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="gaurav.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="gaurav.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d09ced8-582e-47a1-a63e-f0b2836dce01" name="Changes" comment="" />
+      <created>1693088024702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693088024702</updated>
+      <workItem from="1693088027334" duration="2634000" />
+      <workItem from="1703314161201" duration="1112000" />
+      <workItem from="1703316041079" duration="539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

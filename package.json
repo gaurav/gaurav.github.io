@@ -1,51 +1,17 @@
 {
-  "name": "gaurav.github.io",
-  "private": true,
-  "description": "Gaurav Vaidya's homepage",
-  "version": "0.3.0",
-  "author": "Gaurav Vaidya <gaurav@ggvaidya.com>",
-  "dependencies": {
-    "gatsby": "^2.30.3",
-    "gatsby-image": "^2.9.0",
-    "gatsby-plugin-manifest": "^2.4.18",
-    "gatsby-plugin-offline": "^3.2.18",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sharp": "^2.6.19",
-    "gatsby-source-filesystem": "^2.3.20",
-    "gatsby-transformer-json": "^2.4.11",
-    "gatsby-transformer-sharp": "^2.5.11",
-    "luxon": "^1.25.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0",
-    "typeface-nunito-sans": "0.0.72"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "prettier": "2.0.5",
-    "superagent": "^6.1.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "GPL-3.0-or-later",
+  "name": "tidal-tower",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
-    "doi2bibjson": "node ./src/jsonld/scripts/doi2bibjson.js"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaurav/gaurav.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/gaurav/gaurav.github.io/issues"
+  "dependencies": {
+    "@astrojs/check": "^0.3.4",
+    "astro": "^4.0.7",
+    "typescript": "^5.3.3"
   }
 }
