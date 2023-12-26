@@ -7,6 +7,7 @@
     <list default="true" id="1d09ced8-582e-47a1-a63e-f0b2836dce01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +164,7 @@
       <workItem from="1693088027334" duration="2634000" />
       <workItem from="1703314161201" duration="1112000" />
       <workItem from="1703316041079" duration="1011000" />
-      <workItem from="1703568848018" duration="342000" />
+      <workItem from="1703568848018" duration="1256000" />
     </task>
     <servers />
   </component>
