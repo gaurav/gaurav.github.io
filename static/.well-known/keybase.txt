@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mrvaidya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.ggvaidya.com
+  * I am mrvaidya (https://keybase.io/mrvaidya) on keybase.
+  * I have a public key ASDTBQ8gf03ZrIqnJ5430jhnyrNNzvNHiih8WHqjVm2tzgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012071ba7d2ad5d6ac8a1f015acd8816054f6dda74f5b9080fa8b4c42f279951ec000a",
+      "host": "keybase.io",
+      "kid": "0120d3050f207f4dd9ac8aa7279e37d23867cab34dcef3478a287c587aa3566dadce0a",
+      "uid": "2a85f8e46e678bbcc48ccc2c4fa3a519",
+      "username": "mrvaidya"
+    },
+    "merkle_root": {
+      "ctime": 1744063063,
+      "hash": "ce63f34a82eff1a60c92f53da765f554d09a8993ae18e2649415f7ee48754853c7cbb4a2673f8474089ecb2c21fe5baedafd9ff997e26c5c8451c32f56cd90ce",
+      "hash_meta": "936893efc780bcebf6d34855162918f2f540385a118ab1adefd72056a4e2fbfc",
+      "seqno": 26696060
+    },
+    "service": {
+      "entropy": "nVdUrQqjz8y3LJtpYP/q0buG",
+      "hostname": "www.ggvaidya.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1744063101,
+  "expire_in": 504576000,
+  "prev": "0d54cb001f609344552e43aff3959e51671b7abb6024cfae9769b1bc83ae59a9",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0wUPIH9N2ayKpyeeN9I4Z8qzTc7zR4oofFh6o1Ztrc4Kp3BheWxvYWTESpcCGcQgDVTLAB9gk0RVLkOv85WeUWcbertgJM+ul2mxvIOuWanEIOM5Qnt7jEGKe0upwOCdLIWHK7OwnYMUtrkdLXt5nNf3AgHCo3NpZ8RAgS8eqpldxfdawCc9Fzau4cq85+0o53q0f7BOuPbGOrXDQxA5aOys3NhEKFMaeZHqArLZlvkNi0TEhPHQq81VA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILxydHZ/DOL1hjNAhdE7JzVb6zrgH1VPkjOlU4et6W4Wo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrvaidya
+
+==================================================================
